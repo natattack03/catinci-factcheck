@@ -2,10 +2,11 @@
 server.py – Catinci Fact-Check API (Live Version)
 -------------------------------------------------
 Receives a claim, searches Google for evidence, sends it to Gemini for reasoning,
-and returns a structured JSON verdict (true, false, or unsure) with citations.
+and returns a structured JSON verdict (true, false, or unsure) with citations and spoken text.
 """
 
 import os
+import re
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from googleapiclient.discovery import build
@@ -26,16 +27,57 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 # Configure Gemini client
 genai.configure(api_key=GEMINI_API_KEY)
 
+# -------------------------------------------------------------------
+# 2. Helper: Format spoken response for ElevenLabs
+# -------------------------------------------------------------------
+def format_spoken_response(verdict, rationale, citations):
+    verdict_text = {
+        "true": "That’s true —",
+        "false": "That’s not true —",
+        "unsure": "I’m not completely sure —"
+    }.get(verdict.lower(), "I’m not completely sure —")
+
+    # Clean rationale (remove markdown, code blocks, extra spaces)
+    if rationale:
+        clean_rationale = re.sub(r"```.*?```", "", rationale, flags=re.DOTALL)
+        clean_rationale = re.sub(r"\*\*.*?\*\*", "", clean_rationale)  # remove bold markers like **false**
+        clean_rationale = re.sub(r"\s+", " ", clean_rationale).strip()
+
+        # Extract a meaningful sentence
+        sentences = re.split(r"(?<=[.!?])\s+", clean_rationale)
+        short_reason = next((s for s in sentences if len(s.split()) > 4 and not s.lower().startswith(("true", "false"))), sentences[0])
+        # Make sure it ends cleanly with punctuation
+        if not short_reason.endswith(('.', '!', '?')):
+            short_reason += '.'
+    else:
+        short_reason = ""
+
+    # Prefer reputable sources for spoken citation
+    source = None
+    preferred_domains = ["wikipedia", "nasa", "nationalgeographic", "bbc", "scientificamerican", "mit.edu"]
+    if citations and isinstance(citations, list):
+        for c in citations:
+            url = c.get("url", "").lower()
+            title = c.get("title", "")
+            if any(domain in url for domain in preferred_domains):
+                source = title.split(" | ")[0].split(" - ")[0]
+                break
+        if not source and len(citations) > 0:
+            source = citations[0].get("title", "").split(" | ")[0].split(" - ")[0]
+
+    # Construct the spoken sentence
+    if source:
+        return f"{verdict_text} According to {source}, {short_reason}"
+    else:
+        return f"{verdict_text} {short_reason}"
+
+
+
 
 # -------------------------------------------------------------------
-# 2. Fact-check core logic
+# 3. Core fact-check logic
 # -------------------------------------------------------------------
 def run_fact_check_logic(query: str):
-    """
-    1️⃣ Search Google Custom Search for snippets related to the claim
-    2️⃣ Ask Gemini to reason over the snippets
-    3️⃣ Return verdict, rationale, and top citations
-    """
     print(f"🧠 Running live fact-check logic for: {query}")
 
     # --- Google Search phase ---
@@ -49,7 +91,8 @@ def run_fact_check_logic(query: str):
             "verdict": "unsure",
             "confidence": 0.0,
             "rationale": f"Google Search error: {e}",
-            "citations": []
+            "citations": [],
+            "spoken": "I’m not completely sure — There was a problem accessing the fact-check data."
         }
 
     if not items:
@@ -57,10 +100,10 @@ def run_fact_check_logic(query: str):
             "verdict": "unsure",
             "confidence": 0.0,
             "rationale": "No search results found for this query.",
-            "citations": []
+            "citations": [],
+            "spoken": "I’m not completely sure — I couldn’t find enough information to answer that."
         }
 
-    # Combine snippets into evidence text
     evidence = "\n".join(f"{i['title']}: {i['snippet']}" for i in items)
 
     # --- Gemini reasoning phase ---
@@ -77,22 +120,19 @@ Based on the evidence above, classify the claim as one of:
 - false (contradicted by reputable evidence)
 - unsure (unclear or insufficient evidence)
 
-Return a JSON object with fields:
-verdict, confidence (0–1), rationale.
+Return a short explanation that a 7-year-old can understand.
 """
         response = model.generate_content(prompt)
         text = response.text.strip()
         print(f"🤖 Gemini raw output:\n{text}\n")
 
-        # Extract verdict from Gemini’s text
         verdict = "unsure"
-        if "true" in text.lower():
+        if "true" in text.lower() and "not true" not in text.lower():
             verdict = "true"
-        elif "false" in text.lower():
+        elif any(word in text.lower() for word in ["false", "incorrect", "not true"]):
             verdict = "false"
 
-        # --- Build structured result ---
-        return {
+        result = {
             "verdict": verdict,
             "confidence": 0.8,
             "rationale": text,
@@ -102,18 +142,23 @@ verdict, confidence (0–1), rationale.
             ]
         }
 
+        # Add spoken summary
+        result["spoken"] = format_spoken_response(result["verdict"], result["rationale"], result["citations"])
+        return result
+
     except Exception as e:
         print(f"❌ Gemini API error: {e}")
         return {
             "verdict": "unsure",
             "confidence": 0.0,
             "rationale": f"Gemini API error: {e}",
-            "citations": []
+            "citations": [],
+            "spoken": "I’m not completely sure — I couldn’t reach the reasoning service."
         }
 
 
 # -------------------------------------------------------------------
-# 3. API route
+# 4. API routes
 # -------------------------------------------------------------------
 @app.route("/fact_check", methods=["POST"])
 def fact_check():
@@ -133,19 +178,12 @@ def fact_check():
                 "verdict": "unsure",
                 "confidence": 0.0,
                 "rationale": "No claim text provided in request.",
-                "citations": []
+                "citations": [],
+                "spoken": "I’m not completely sure — I didn’t receive a statement to fact-check."
             }), 200
 
-        # ✅ Placeholder result — proves endpoint works
-        result = {
-            "verdict": "false",
-            "confidence": 0.95,
-            "rationale": f"According to Wikipedia, '{claim}' is not true — whales are mammals, not fish.",
-            "citations": [
-                {"title": "Whale - Wikipedia", "url": "https://en.wikipedia.org/wiki/Whale"}
-            ]
-        }
-
+        # Run fact-check logic
+        result = run_fact_check_logic(claim)
         return jsonify(result), 200
 
     except Exception as e:
@@ -154,7 +192,8 @@ def fact_check():
             "verdict": "unsure",
             "confidence": 0.0,
             "rationale": f"Server error: {str(e)}",
-            "citations": []
+            "citations": [],
+            "spoken": "I’m not completely sure — Something went wrong while fact-checking."
         }), 500
 
 
@@ -164,5 +203,4 @@ def health():
 
 
 if __name__ == "__main__":
-    import os
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5001)))
