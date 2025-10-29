@@ -1,0 +1,8 @@
+elevenlabs==1.9.0
+python-dotenv==1.0.0
+Flask>=2.3.3
+Flask-Cors>=4.0.0
+google-api-python-client>=2.127.0
+google-generativeai>=0.6.0
+python-dotenv>=1.0.0
+requests>=2.31.0

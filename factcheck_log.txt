@@ -1,0 +1,1623 @@
+
+🗣️ Agent would say: That’s not true — All provided evidence snippets explicitly state that penguins do not live in the Arctic or at the North Pole. Several sources confirm that penguins live in the Southern Hemisphere, primarily….
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 17:36:23
+🔎 Claim: the moon is made of cheese
+🗣️ Agent would say (full): Actually, that’s incorrect — The provided evidence overwhelmingly indicates that the claim the moon is made of cheese is a fanciful belief, not a literal truth. Several snippets explicitly state that its a fanciful belief (Wikipedia), that No one believed it (Where does the idea...), and that its doubtful that anyone ever actually believed it, at least not academically (Why Do People Say...). The idea is explained as stemming from the moons cratered appearance resembling Swiss cheese. While one snippet from Reasons to Believe mentions seismic velocities matching those of cheese, this is presented in a context that is not a reputable scientific source for the Moons composition and is contradicted by all other scientific understanding of celestial bodies. The Reddit snippet is a hypothetical discussion, not an assertion of fact.
+📚 Sources:
+  • The Moon is made of green cheese - Wikipedia — https://en.wikipedia.org/wiki/The_Moon_is_made_of_green_cheese
+  • Where does the idea that the moon is made of cheese actually come ... — https://www.reddit.com/r/NoStupidQuestions/comments/qxx5e3/where_does_the_idea_that_the_moon_is_made_of/
+  • Why Do People Say the Moon is Made of Cheese? — https://www.mentalfloss.com/article/53107/why-do-people-say-moon-made-cheese
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 17:37:20
+🔎 Claim: pizza is italian
+🗣️ Agent would say (full): That’s true — The claim pizza is Italian is largely supported by the provided evidence. Wikipedia explicitly states Pizza is an Italian, specifically Neapolitan, dish. Other snippets refer to Italian pizza and acknowledge its origin in southern italy (Naples), which is part of Italy. While some sources highlight the historical technicality that pizza predates the modern Italian nation-state and emphasize its Neapolitan origin, Naples is unequivocally located in Italy. Therefore, in a cultural and geographical sense, pizza is considered Italian, despite the nuanced historical arguments regarding nation-state formation.
+📚 Sources:
+  • Is pizza really Italian? : r/Italian — https://www.reddit.com/r/Italian/comments/1inpxqm/is_pizza_really_italian/
+  • Pizza - Wikipedia — https://en.wikipedia.org/wiki/Pizza
+  • Why does pizza in Italy taste different than in USA? Difficult ... — https://www.reddit.com/r/ItalianFood/comments/zw75db/why_does_pizza_in_italy_taste_different_than_in/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 17:37:40
+🔎 Claim: istanbul is in germany
+🗣️ Agent would say (full): That doesn’t seem right — All provided evidence contradicts the claim. The snippets repeatedly refer to Flights From Istanbul to Germany or Flights from Istanbul, Turkey to Germany, explicitly stating Istanbul is in Turkey and a separate entity from Germany. The phrase Germany or Istanbul for travelling also treats them as distinct destinations. Furthermore, the discussion about finding a city like Istanbul in Germany clearly implies Istanbul is not itself in Germany.
+📚 Sources:
+  • Germany - Istanbul Convention Action against violence against ... — https://www.coe.int/en/web/istanbul-convention/germany
+  • Flights From Istanbul to Germany | Turkish Airlines — https://www.turkishairlines.com/en/book-flights-from-istanbul-to-germany
+  • Germany or Istanbul for travelling 6 year old son and wife : r/travel — https://www.reddit.com/r/travel/comments/1ail6pg/germany_or_istanbul_for_travelling_6_year_old_son/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 17:39:11
+🔎 Claim: penguins live in the north pole
+🗣️ Agent would say (full): That’s not true — The claim that penguins live in the North Pole is contradicted by all provided evidence. Multiple snippets explicitly state that penguins live in Antarctica, not the Arctic (which includes the North Pole). Sources directly answer the question Are There Penguins in The Arctic? with No, and explain that its a common misconception. Reasons given include their evolutionary origin in the Southern Hemisphere, the distance to swim, and their inability to survive in an ecosystem with Arctic predators like polar bears.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Why don't penguins live in the Arctic? : r/askscience — https://www.reddit.com/r/askscience/comments/fnnayc/why_dont_penguins_live_in_the_arctic/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 17:49:42
+🔎 Claim: the great wall of china is visible from space
+🗣️ Agent would say (full): That doesn’t seem right — Multiple reputable sources contradict the claim that the Great Wall of China is visible from space. The BBC Sky at Night explicitly states, The truth is that the Great Wall of China cannot be seen from space. To be more precise, it cant easily be seen with the naked eye. Wikipedia lists the Great Wall of China under Misconceptions regarding artificial structures visible from space. NASA also clarifies that it is not visible from the Moon. While Scientific American notes it is only visible from low orbit under a specific set of weather and lighting conditions, this qualification emphasizes that it is not generally or easily visible to the naked eye, supporting the conclusion that the common claim is false. based on information from NASA, Is China's Great Wall Visible from Space? | Scientific American, and TIL the Great Wall of China is not actually visible from space, its just ....
+📚 Sources:
+  • Great Wall - NASA — https://www.nasa.gov/image-article/great-wall/
+  • Is China's Great Wall Visible from Space? | Scientific American — https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space/
+  • TIL the Great Wall of China is not actually visible from space, its just ... — https://www.reddit.com/r/todayilearned/comments/1kg3uwe/til_the_great_wall_of_china_is_not_actually/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 17:50:40
+🔎 Claim: dogs bark when they are excited
+🗣️ Agent would say (full): You’re right — The provided evidence overwhelmingly supports the claim that dogs bark when they are excited. Multiple snippets directly use the term excitement barking and describe scenarios where dogs bark due to being overly excited or happy. For example, one snippet states, Dogs that bark due to excitement are easily aroused, and another describes a dogs wiggles and tail wags make it clear shes simply excited theyre back while she barks. The advice given in the snippets is focused on addressing this specific behavior, further confirming its existence. based on information from How to curb excitement barking? : r/Dogtraining, Excitement Barking – Companion Animals, and Dog gets overly excited when people visit. He will bark and jump for ....
+📚 Sources:
+  • How to curb excitement barking? : r/Dogtraining — https://www.reddit.com/r/Dogtraining/comments/xcsuq6/how_to_curb_excitement_barking/
+  • Excitement Barking – Companion Animals — https://companion-animals.extension.org/excitement-barking/
+  • Dog gets overly excited when people visit. He will bark and jump for ... — https://www.reddit.com/r/Dogtraining/comments/pm8efx/dog_gets_overly_excited_when_people_visit_he_will/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 17:54:57
+🔎 Claim: the great wall of china isvisible from spaced
+🗣️ Agent would say (full): That doesn’t seem right — The evidence provided strongly indicates that the claim is false. One snippet explicitly states, No manmade object is visible to the naked eye from low earth orbit, much less the moon, which directly contradicts the claim that the Great Wall is visible from space (low earth orbit being a part of space). Other snippets are either irrelevant, incomplete, or ambiguous. For example, one mentions the Great Wall is visible to the naked eye but then immediately talks about an error, and another snippet stating The Great wall of China is visible is cut off and doesnt specify from space. based on information from Is it Really Possible to See the Great Wall of China from Space with ..., Those of you with a wood stove in a camper, how far off the wall is ..., and The Story of the Great wall of China | by EPIFANÉ | Medium.
+📚 Sources:
+  • Is it Really Possible to See the Great Wall of China from Space with ... — https://pmc.ncbi.nlm.nih.gov/articles/PMC3972694/
+  • Those of you with a wood stove in a camper, how far off the wall is ... — https://www.facebook.com/groups/offgridlivingsurvival/posts/1572458596492129/
+  • The Story of the Great wall of China | by EPIFANÉ | Medium — https://medium.com/@epifane/the-story-of-the-great-wall-of-china-1882d62b14a3
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 17:57:53
+🔎 Claim: the moon is made of cheese
+🗣️ Agent would say (full): That’s not true — According to Wikipedia, the provided evidence overwhelmingly indicates that the claim the moon is made of cheese is a fanciful belief and not a scientific fact. Multiple snippets state that no one believed it and that its a fanciful belief or a long-standing idiom not taken literally. While one snippet from Reasons to Believe humorously suggests Evidence Indicates the Moon Is Made of Cheese by comparing seismic velocities of moon rocks to popular cheeses, this is clearly a satirical or non-serious take, as actual moon rocks are known to be composed of silicates, metals, and other geological materials, not cheese. The comparison of seismic velocities is a flawed attempt to legitimize a known myth, likely for humorous or rhetorical effect, and does not constitute reputable evidence for the moon being made of cheese. Therefore, the claim is false.
+📚 Sources:
+  • The Moon is made of green cheese - Wikipedia — https://en.wikipedia.org/wiki/The_Moon_is_made_of_green_cheese
+  • Where does the idea that the moon is made of cheese actually come ... — https://www.reddit.com/r/NoStupidQuestions/comments/qxx5e3/where_does_the_idea_that_the_moon_is_made_of/
+  • Why Do People Say the Moon is Made of Cheese? — https://www.mentalfloss.com/article/53107/why-do-people-say-moon-made-cheese
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:02:13
+🔎 Claim: the moon is made of cheese
+🗣️ Agent would say (full): That’s not true — according to Wikipedia.
+📚 Sources:
+  • The Moon is made of green cheese - Wikipedia — https://en.wikipedia.org/wiki/The_Moon_is_made_of_green_cheese
+  • Where does the idea that the moon is made of cheese actually come ... — https://www.reddit.com/r/NoStupidQuestions/comments/qxx5e3/where_does_the_idea_that_the_moon_is_made_of/
+  • Why Do People Say the Moon is Made of Cheese? — https://www.mentalfloss.com/article/53107/why-do-people-say-moon-made-cheese
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:05:10
+🔎 Claim: the moon is made of cheese
+🗣️ Agent would say (full): That’s not true — According to Wikipedia, The provided evidence overwhelmingly indicates that the claim the moon is made of cheese is a fanciful belief and not a factual one. Snippets 1, 2, and 3 explicitly state that its a fanciful belief, that no one believed it, and its doubtful that anyone ever actually believed it, at least not academically.
+📚 Sources:
+  • The Moon is made of green cheese - Wikipedia — https://en.wikipedia.org/wiki/The_Moon_is_made_of_green_cheese
+  • Where does the idea that the moon is made of cheese actually come ... — https://www.reddit.com/r/NoStupidQuestions/comments/qxx5e3/where_does_the_idea_that_the_moon_is_made_of/
+  • Why Do People Say the Moon is Made of Cheese? — https://www.mentalfloss.com/article/53107/why-do-people-say-moon-made-cheese
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:09:13
+🔎 Claim: the moon is made of cheese
+🗣️ Agent would say (full): Actually, that’s incorrect — According to Wikipedia, The provided evidence overwhelmingly indicates that the claim is a fanciful belief, not a factual one.
+📚 Sources:
+  • The Moon is made of green cheese - Wikipedia — https://en.wikipedia.org/wiki/The_Moon_is_made_of_green_cheese
+  • Where does the idea that the moon is made of cheese actually come ... — https://www.reddit.com/r/NoStupidQuestions/comments/qxx5e3/where_does_the_idea_that_the_moon_is_made_of/
+  • Why Do People Say the Moon is Made of Cheese? — https://www.mentalfloss.com/article/53107/why-do-people-say-moon-made-cheese
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:09:35
+🔎 Claim: penguins live in the north pole
+🗣️ Agent would say (full): That’s not true — According to Aurora Expeditions, All provided evidence explicitly states that penguins do not live in the North Pole (Arctic).
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Why don't penguins live in the Arctic? : r/askscience — https://www.reddit.com/r/askscience/comments/fnnayc/why_dont_penguins_live_in_the_arctic/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:14:13
+🔎 Claim: the great wall of china is visible from space
+🗣️ Agent would say (full): Actually, that’s incorrect — According to NASA, Multiple reputable sources contradict the claim that the Great Wall of China is visible from space, particularly with the naked eye. NASA states its not visible from the moon.
+📚 Sources:
+  • Great Wall - NASA — https://www.nasa.gov/image-article/great-wall/
+  • Is China's Great Wall Visible from Space? | Scientific American — https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space/
+  • TIL the Great Wall of China is not actually visible from space, its just ... — https://www.reddit.com/r/todayilearned/comments/1kg3uwe/til_the_great_wall_of_china_is_not_actually/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:14:42
+🔎 Claim: penguins live in the north pole
+🗣️ Agent would say (full): Actually, that’s incorrect — According to Aurora Expeditions, All provided evidence unequivocally states that penguins do not live in the North Pole (Arctic). Multiple sources explicitly state that penguins live in Antarctica (Southern Hemisphere) and explain why they are not found in the Arctic, citing evolutionary history, distance, and the presence of predators like polar bears.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Why don't penguins live in the Arctic? : r/askscience — https://www.reddit.com/r/askscience/comments/fnnayc/why_dont_penguins_live_in_the_arctic/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:18:32
+🔎 Claim: penguins live in the north pole
+🗣️ Agent would say (full): Actually, that’s incorrect — According to Aurora Expeditions, Research shows snippets explain that penguins do not live in the Arctic or the North Pole. They uniformly explain that penguins are native to the Southern Hemisphere (Antarctica and other sub-Antarctic regions) and would not survive in the Arctic due to factors like predation (polar bears) and the vast distance from their natural habitat.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Why don't penguins live in the Arctic? : r/askscience — https://www.reddit.com/r/askscience/comments/fnnayc/why_dont_penguins_live_in_the_arctic/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:19:02
+🔎 Claim: the moon landing never happened
+🗣️ Agent would say (full): That’s not true — According to What's some irrefutable evidence of the moon landing? : r/space, The provided evidence strongly indicates that the claim the moon landing never happened is false. Snippets from the Institute of Physics explain that Every single argument claiming that NASA faked the Moon landings has been discredited.
+📚 Sources:
+  • What's some irrefutable evidence of the moon landing? : r/space — https://www.reddit.com/r/space/comments/63l736/whats_some_irrefutable_evidence_of_the_moon/
+  • Moon landing conspiracy theories - Wikipedia — https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories
+  • How do we know that we went to the Moon? | Institute of Physics — https://www.iop.org/explore-physics/moon/how-do-we-know-we-went-to-the-moon
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:20:28
+🔎 Claim: the great wall of china is visible from space
+🗣️ Agent would say (full): Actually, that’s incorrect — According to NASA, The provided evidence overwhelmingly indicates that the claim is false. NASA explains its not visible from the moon.
+📚 Sources:
+  • Great Wall - NASA — https://www.nasa.gov/image-article/great-wall/
+  • Is China's Great Wall Visible from Space? | Scientific American — https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space/
+  • TIL the Great Wall of China is not actually visible from space, its just ... — https://www.reddit.com/r/todayilearned/comments/1kg3uwe/til_the_great_wall_of_china_is_not_actually/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:20:53
+🔎 Claim: kangaroo babies are called joey
+🗣️ Agent would say (full): You’re right — According to Baby kangaroos are called "Joey"s because they're always asking ..., All provided snippets explain that baby kangaroos are called joey. For instance, Baby kangaroos are called Joeys...
+📚 Sources:
+  • Baby kangaroos are called "Joey"s because they're always asking ... — https://www.reddit.com/r/ShittyAnimalFacts/comments/bjh2rh/baby_kangaroos_are_called_joeys_because_theyre/
+  • Why are kangaroos called Joeys? - Quora — https://www.quora.com/Why-are-kangaroos-called-Joeys
+  • How long does a joey spend in a kangaroo's pouch? Here's your ... — https://www.discoverwildlife.com/animal-facts/mammals/how-long-do-joeys-stay-in-the-pouch
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:22:14
+🔎 Claim: kangaroo babies are called joey
+🗣️ Agent would say (full): That’s true — According to Baby kangaroos are called "Joey"s because they're always asking ..., All provided snippets explain that baby kangaroos are called joeys. For example, Baby kangaroos are called Joeys and A baby kangaroos is called a joey.
+📚 Sources:
+  • Baby kangaroos are called "Joey"s because they're always asking ... — https://www.reddit.com/r/ShittyAnimalFacts/comments/bjh2rh/baby_kangaroos_are_called_joeys_because_theyre/
+  • Why are kangaroos called Joeys? - Quora — https://www.quora.com/Why-are-kangaroos-called-Joeys
+  • How long does a joey spend in a kangaroo's pouch? Here's your ... — https://www.discoverwildlife.com/animal-facts/mammals/how-long-do-joeys-stay-in-the-pouch
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:22:46
+🔎 Claim: Dusk is the same as dawn
+🗣️ Agent would say (full): That’s not true — According to ELI5: Can someone explain the terms twilight dawn & dusk in ..., The evidence primarily contradicts the claim.
+📚 Sources:
+  • ELI5: Can someone explain the terms twilight, dawn & dusk in ... — https://www.reddit.com/r/explainlikeimfive/comments/1enqmrh/eli5_can_someone_explain_the_terms_twilight_dawn/
+  • The Different Types of Twilight, Dawn and Dusk — https://www.timeanddate.com/astronomy/different-types-twilight.html
+  • Dawn, dusk and twilight | Meanings and Timings — https://www.rmg.co.uk/stories/time/when-dawn-dusk-twilight
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:23:16
+🔎 Claim: Roly pollies communicate by tapping antennae
+🗣️ Agent would say (full): That’s correct — According to Roly-Poly Bug Facts, Multiple snippets directly state that roly pollies communicate by tapping their antennae. For example, Roly-polies have even shown social behaviors such as fighting over food and communicating by tapping with their antennae.
+📚 Sources:
+  • Roly-Poly Bug Facts — https://www.sciencing.com/rolypoly-bug-6514405/
+  • Roly-poly Bugs In Your Garden - myMotherLode.com — https://mymotherlode.com/news/local/809769/roly-poly-bugs-in-your-garden.html
+  • Adventures with a Decomposer — https://www.pioneersprings.org/uploads/1/3/3/0/133030941/adventures_with_a_decomposer.pdf
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:26:39
+🔎 Claim: dusk is the same as dawn
+🗣️ Agent would say (full): Actually, that’s incorrect — According to ELI5: Can someone explain the terms twilight dawn & dusk in .., The evidence clearly defines dusk and dawn as distinct and opposite periods of the day. One snippet states, sunrise or dawn is when the sun comes up, and sunset or dusk is when it goes down.
+📚 Sources:
+  • ELI5: Can someone explain the terms twilight, dawn & dusk in ... — https://www.reddit.com/r/explainlikeimfive/comments/1enqmrh/eli5_can_someone_explain_the_terms_twilight_dawn/
+  • The Different Types of Twilight, Dawn and Dusk — https://www.timeanddate.com/astronomy/different-types-twilight.html
+  • Dawn, dusk and twilight | Meanings and Timings — https://www.rmg.co.uk/stories/time/when-dawn-dusk-twilight
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:29:31
+🔎 Claim: dusk is the same as dawn
+🗣️ Agent would say (full): That’s not true — According to ELI5: Can someone explain the terms twilight dawn & dusk in ..., research consistently defines dawn and dusk as distinct and opposing periods of the day. None of research supports the claim that dusk is the same as dawn; instead, it explicitly defines them as different events marking the beginning and end of daylight or the night.
+📚 Sources:
+  • ELI5: Can someone explain the terms twilight, dawn & dusk in ... — https://www.reddit.com/r/explainlikeimfive/comments/1enqmrh/eli5_can_someone_explain_the_terms_twilight_dawn/
+  • The Different Types of Twilight, Dawn and Dusk — https://www.timeanddate.com/astronomy/different-types-twilight.html
+  • Dawn, dusk and twilight | Meanings and Timings — https://www.rmg.co.uk/stories/time/when-dawn-dusk-twilight
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:30:10
+🔎 Claim: Penguins live in the North Pole
+🗣️ Agent would say (full): That’s not true — According to Aurora Expeditions, research explicitly states that penguins do not live in the North Pole or the Arctic. Snippets repeatedly mention that penguins live in Antarctica or the Southern Hemisphere, and that the idea of them living in the Arctic is a common myth.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Why don't penguins live in the Arctic? : r/askscience — https://www.reddit.com/r/askscience/comments/fnnayc/why_dont_penguins_live_in_the_arctic/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:32:52
+🔎 Claim: penguins live in the north pole
+🗣️ Agent would say (full): Actually, that’s incorrect — According to Aurora Expeditions, All provided evidence snippets explicitly state that penguins do not live in the Arctic or at the North Pole. They consistently mention that penguins are native to the Southern Hemisphere, primarily Antarctica, and that the idea of them living in the Arctic is a common misconception.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Why don't penguins live in the Arctic? : r/askscience — https://www.reddit.com/r/askscience/comments/fnnayc/why_dont_penguins_live_in_the_arctic/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-27 18:33:17
+🔎 Claim: Dusk is the same as dawn
+🗣️ Agent would say (full): That’s not true — According to ELI5: Can someone explain the terms twilight dawn & dusk in ..., The reputable evidence explicitly defines dawn and dusk as distinct and opposite events. Snippet 3 states, sunrise or dawn is when the sun comes up, and sunset or dusk is when it goes down, clearly differentiating them.
+📚 Sources:
+  • ELI5: Can someone explain the terms twilight, dawn & dusk in ... — https://www.reddit.com/r/explainlikeimfive/comments/1enqmrh/eli5_can_someone_explain_the_terms_twilight_dawn/
+  • The Different Types of Twilight, Dawn and Dusk — https://www.timeanddate.com/astronomy/different-types-twilight.html
+  • Dawn, dusk and twilight | Meanings and Timings — https://www.rmg.co.uk/stories/time/when-dawn-dusk-twilight
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 10:21:54
+🔎 Claim: penguins live in the north pole
+🗣️ Agent would say (full): Actually, that’s incorrect — According to Aurora Expeditions, The evidence unequivocally states that penguins do not live in the Arctic or North Pole. Some snippets even discuss why they cannot survive or are not found there.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Why don't penguins live in the Arctic? : r/askscience — https://www.reddit.com/r/askscience/comments/fnnayc/why_dont_penguins_live_in_the_arctic/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 10:33:23
+🔎 Claim: dusk is the same as dawn
+🗣️ Agent would say (full): That’s not true — According to ELI5: Can someone explain the terms twilight dawn & dusk in ..., The evidence clearly defines dawn and dusk as distinct and opposite events. Snippet 3 states, sunrise or dawn is when the sun comes up, and sunset or dusk is when the sun goes down, directly differentiating them.
+📚 Sources:
+  • ELI5: Can someone explain the terms twilight, dawn & dusk in ... — https://www.reddit.com/r/explainlikeimfive/comments/1enqmrh/eli5_can_someone_explain_the_terms_twilight_dawn/
+  • The Different Types of Twilight, Dawn and Dusk — https://www.timeanddate.com/astronomy/different-types-twilight.html
+  • Dawn, dusk and twilight | Meanings and Timings — https://www.rmg.co.uk/stories/time/when-dawn-dusk-twilight
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 10:34:56
+🔎 Claim: penguins live in the north pole
+🗣️ Agent would say (full): Not quite right — According to Aurora Expeditions, The Multiple One of the most common mistakes is that penguins live in the Arctic (Penguins dont live at the South Pole, and more polar myths...), and No, penguins are ground-nesting animals and unable to fly, which would make them prey to Arctic... (Poseidon Expeditions).
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Why don't penguins live in the Arctic? : r/askscience — https://www.reddit.com/r/askscience/comments/fnnayc/why_dont_penguins_live_in_the_arctic/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 10:35:48
+🔎 Claim: dolphins use clicks to communicate
+🗣️ Agent would say (full): That’s true — According to Clicks whistles and pulses: Passive and active signal use in dolphin ..., While some This directly demonstrates the use of clicks for communication between dolphins to synchronize behaviors. Therefore, the claim that dolphins use clicks to communicate is supported.
+📚 Sources:
+  • Clicks, whistles and pulses: Passive and active signal use in dolphin ... — https://www.sciencedirect.com/science/article/pii/S009457651400246X
+  • How do dolphins communicate? - Whale & Dolphin Conservation USA — https://us.whales.org/whales-dolphins/how-do-dolphins-communicate/
+  • How do dolphins communicate? – Dolphin Communication Project — https://www.dolphincommunicationproject.org/dolphin-communication/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 10:36:25
+🔎 Claim: dusk is the same as dawn
+🗣️ Agent would say (full): Not quite right — According to ELI5: Can someone explain the terms twilight dawn & dusk in ..., The While The other g., duration of twilight, animal behavior), not that dawn and dusk themselves are the same event.
+📚 Sources:
+  • ELI5: Can someone explain the terms twilight, dawn & dusk in ... — https://www.reddit.com/r/explainlikeimfive/comments/1enqmrh/eli5_can_someone_explain_the_terms_twilight_dawn/
+  • The Different Types of Twilight, Dawn and Dusk — https://www.timeanddate.com/astronomy/different-types-twilight.html
+  • Dawn, dusk and twilight | Meanings and Timings — https://www.rmg.co.uk/stories/time/when-dawn-dusk-twilight
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 10:41:09
+🔎 Claim: penguins live in the north pole
+🗣️ Agent would say (full): That’s not true — According to Aurora Expeditions, All For example, Penguins live in Antarctica, not the the Arctic (Aurora Expeditions) and There are no penguins in the the Arctic or the South Pole.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Why don't penguins live in the Arctic? : r/askscience — https://www.reddit.com/r/askscience/comments/fnnayc/why_dont_penguins_live_in_the_arctic/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 10:49:32
+🔎 Claim: penguins live in the north pole
+🗣️ Agent would say (full): That’s not true — According to Aurora Expeditions, The provided research overwhelmingly contradicts the claim that penguins live in the North Pole (Arctic). Multiple sources explicitly state that penguins live in Antarctica (Southern Hemisphere) and there are no penguins in the Arctic.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Why don't penguins live in the Arctic? : r/askscience — https://www.reddit.com/r/askscience/comments/fnnayc/why_dont_penguins_live_in_the_arctic/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 10:50:33
+🔎 Claim: the sky is blue because of the ocean
+🗣️ Agent would say (full): That’s not true — According to Why is the sky blue AND the ocean blue? (serious) : r ..., The provided research overwhelmingly contradicts the claim that the sky is blue because of the ocean. For example, the Earths sky isnt blue due to it reflecting the colour of the seas and oceans (Royal Observatory) and No.
+📚 Sources:
+  • Why is the sky blue AND the ocean blue? (serious) : r ... — https://www.reddit.com/r/NoStupidQuestions/comments/1dpyn24/why_is_the_sky_blue_and_the_ocean_blue_serious/
+  • Why is the sky blue? | Royal Observatory — https://www.rmg.co.uk/stories/space-astronomy/why-sky-blue
+  • Why is the Sky Blue? Or Better Yet, Why is the Ocean Blue? | Office ... — https://www.mcgill.ca/oss/article/environment-general-science-you-asked/why-sky-blue-or-better-yet-why-ocean-blue
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 10:53:56
+🔎 Claim: the sky is blue because of the ocean
+🗣️ Agent would say (full): That’s not true — According to Why is the sky blue AND the ocean blue? (serious) : r ..., The evidence directly contradicts the claim. Multiple snippets explain that the sky is blue due to a phenomenon called Rayleigh scattering (the scattering of sunlight by atmospheric particles), and explain that the sky is NOT blue due to reflecting the color of the ocean.
+📚 Sources:
+  • Why is the sky blue AND the ocean blue? (serious) : r ... — https://www.reddit.com/r/NoStupidQuestions/comments/1dpyn24/why_is_the_sky_blue_and_the_ocean_blue_serious/
+  • Why is the sky blue? | Royal Observatory — https://www.rmg.co.uk/stories/space-astronomy/why-sky-blue
+  • Why is the Sky Blue? Or Better Yet, Why is the Ocean Blue? | Office ... — https://www.mcgill.ca/oss/article/environment-general-science-you-asked/why-sky-blue-or-better-yet-why-ocean-blue
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 10:54:21
+🔎 Claim: penguins live in the north pole
+🗣️ Agent would say (full): Actually, that’s incorrect — According to Aurora Expeditions, The claim states that penguins live in the north pole. However, all provided evidence directly contradicts this.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Why don't penguins live in the Arctic? : r/askscience — https://www.reddit.com/r/askscience/comments/fnnayc/why_dont_penguins_live_in_the_arctic/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 10:54:54
+🔎 Claim: sharks can smell blood
+🗣️ Agent would say (full): That’s correct — According to How do sharks smell blood 0.4km away? Does a particle of blood ..., The evidence overwhelmingly supports the claim that sharks can smell blood. Multiple snippets explain this: sharks can smell blood in the ocean, Sharks can smell blood from hundreds of meters away—in concentrations as low as one part per million (ppm), and a shark can smell blood at one part per million.
+📚 Sources:
+  • How do sharks smell blood 0.4km away? Does a particle of blood ... — https://www.reddit.com/r/askscience/comments/4bal9g/how_do_sharks_smell_blood_04km_away_does_a/
+  • Do Sharks Really Smell Blood? — https://www.oceanconservation.org/pdf/press-kit/2020_08_05_Sharks_Smell_Blood.pdf
+  • How do sharks smell blood underwater? - BBC Science Focus ... — https://www.sciencefocus.com/the-human-body/how-do-sharks-smell-blood-underwater
+--------------------------------------------------------------------------------
+
+Claim: the sky is blue because of the ocean
+Verdict: unsure
+I’m not completely sure — No input provided.
+------------------------------------------------------------
+
+Claim: penguins live in the north pole
+Verdict: unsure
+That’s mostly true — No input provided.
+------------------------------------------------------------
+
+🕓 2025-10-28 10:57:11
+🔎 Claim: sharks can smell blood
+🗣️ Agent would say (full): You’re right — According to How do sharks smell blood 0.4km away? Does a particle of blood ..., Multiple snippets directly state that sharks can smell blood. For example, one snippet clarifies, While the extent of their smelling abilities is often exaggerated, sharks can smell blood in the ocean.
+📚 Sources:
+  • How do sharks smell blood 0.4km away? Does a particle of blood ... — https://www.reddit.com/r/askscience/comments/4bal9g/how_do_sharks_smell_blood_04km_away_does_a/
+  • Do Sharks Really Smell Blood? — https://www.oceanconservation.org/pdf/press-kit/2020_08_05_Sharks_Smell_Blood.pdf
+  • How do sharks smell blood underwater? - BBC Science Focus ... — https://www.sciencefocus.com/the-human-body/how-do-sharks-smell-blood-underwater
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 10:59:47
+🔎 Claim: the great wall of china is visible from space
+🗣️ Agent would say (full): Actually, that’s incorrect — According to NASA, The majority of reputable sources contradict the claim that the Great Wall of China is visible from space, particularly with the naked eye. NASA explains its not visible from the moon and the Wikipedia snippet lists it under Misconceptions.
+📚 Sources:
+  • Great Wall - NASA — https://www.nasa.gov/image-article/great-wall/
+  • Is China's Great Wall Visible from Space? | Scientific American — https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space/
+  • TIL the Great Wall of China is not actually visible from space, its just ... — https://www.reddit.com/r/todayilearned/comments/1kg3uwe/til_the_great_wall_of_china_is_not_actually/
+--------------------------------------------------------------------------------
+
+Claim: the great wall of china is visible from space
+Verdict: unsure
+I’m not completely sure — No input provided.
+------------------------------------------------------------
+
+🕓 2025-10-28 11:08:14
+🔎 Claim: sharks can smell blood
+🗣️ Agent would say (full): That’s correct — According to How do sharks smell blood 0.4km away? Does a particle of blood ..., All provided snippets consistently affirm that sharks can smell blood. While some snippets clarify that the extent or distance of their smelling abilities is often exaggerated (e.g., The distance is more myth than fact, the extent of their smelling abilities is often exaggerated), they all agree on the core ability.
+📚 Sources:
+  • How do sharks smell blood 0.4km away? Does a particle of blood ... — https://www.reddit.com/r/askscience/comments/4bal9g/how_do_sharks_smell_blood_04km_away_does_a/
+  • Do Sharks Really Smell Blood? — https://www.oceanconservation.org/pdf/press-kit/2020_08_05_Sharks_Smell_Blood.pdf
+  • How do sharks smell blood underwater? - BBC Science Focus ... — https://www.sciencefocus.com/the-human-body/how-do-sharks-smell-blood-underwater
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 11:09:04
+🔎 Claim: penguins live in the north pole
+🗣️ Agent would say (full): Actually, that’s incorrect — According to Aurora Expeditions, The evidence shows clearly that penguins do not live in the Arctic or at the North Pole. Multiple snippets explicitly say Penguins live in Antarctica, not the Arctic and There are no penguins in the Arctic.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Why don't penguins live in the Arctic? : r/askscience — https://www.reddit.com/r/askscience/comments/fnnayc/why_dont_penguins_live_in_the_arctic/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 11:09:44
+🔎 Claim: water is wet
+🗣️ Agent would say (full): That’s mostly true — According to Is Water Wet? : r/chemistry, The provided evidence presents conflicting definitions and interpretations of wetness, making it impossible to definitively classify the claim water is wet. Some sources, including BBC Science Focus (a reputable source), define wetness as a liquids ability to maintain contact with a solid surface, concluding that water itself is not wet, but rather makes other objects wet.
+📚 Sources:
+  • Is Water Wet? : r/chemistry — https://www.reddit.com/r/chemistry/comments/82c954/is_water_wet/
+  • Is Water Wet or Does It Just Make Things Wet? (Analytic ... — https://parknotes.substack.com/p/is-water-wet-or-does-it-just-make
+  • Is water wet? Here's why scientists aren't sure | BBC Science Focus — https://www.sciencefocus.com/science/is-water-wet
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 11:49:43
+🔎 Claim: sharks can smell blood
+🗣️ Agent would say (full): You’re right — According to How do sharks smell blood 0.4km away? Does a particle of blood ..., Multiple snippets explain that sharks can smell blood. For example, one snippet says, sharks can smell blood in the ocean, while another notes, Sharks can smell blood from hundreds of meters away—in concentrations as low as one part per million.
+📚 Sources:
+  • How do sharks smell blood 0.4km away? Does a particle of blood ... — https://www.reddit.com/r/askscience/comments/4bal9g/how_do_sharks_smell_blood_04km_away_does_a/
+  • Do Sharks Really Smell Blood? — https://www.oceanconservation.org/pdf/press-kit/2020_08_05_Sharks_Smell_Blood.pdf
+  • How do sharks smell blood underwater? - BBC Science Focus ... — https://www.sciencefocus.com/the-human-body/how-do-sharks-smell-blood-underwater
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 11:54:21
+🔎 Claim: penguins live in the north poke
+🗣️ Agent would say (full): Actually, that’s incorrect — According to Does a colony of penguins stand s chance in the north pole? What ..., The claim states that penguins live in the North Pole. Research shows snippets explicitly and consistently contradict this claim.
+📚 Sources:
+  • Does a colony of penguins stand s chance in the north pole? What ... — https://www.reddit.com/r/askscience/comments/1340op/does_a_colony_of_penguins_stand_s_chance_in_the/
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Why don't penguins live in the Arctic? : r/askscience — https://www.reddit.com/r/askscience/comments/fnnayc/why_dont_penguins_live_in_the_arctic/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 12:13:46
+🔎 Claim: why do dogs have a tail
+🗣️ Agent would say (full): That’s correct — According to Dogs' tails are so important for communication that dogs whose tails ..., The claim, interpreted as a question asking for reasons why dogs have tails, is directly and thoroughly answered by the provided evidence. Multiple reputable sources (American Kennel Club, PetMD, AdelaideVet) consistently state that dogs tails serve crucial functions.
+📚 Sources:
+  • Dogs' tails are so important for communication, that dogs whose tails ... — https://www.reddit.com/r/Awwducational/comments/endrki/dogs_tails_are_so_important_for_communication/
+  • Why Do Dogs Have Tails? – American Kennel Club — https://www.akc.org/expert-advice/advice/why-do-dogs-have-tails/
+  • Why Do Dogs Have Tails? | PetMD — https://www.petmd.com/dog/general-health/why-do-dogs-have-tails
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 12:15:33
+🔎 Claim: dogs can only see in black and white
+🗣️ Agent would say (full): Actually, that’s incorrect — According to Do dogs see only in black and white?, The evidence consistently refutes the claim that dogs can only see in black and white. Multiple snippets explain that this belief is a myth and that recent studies suggest that they actually do have some colour vision.
+📚 Sources:
+  • Do dogs see only in black and white? — https://www.pedigree.com/dog-care-articles/our-help-hub/training-resources/do-dogs-see-only-in-black-and-white
+  • Can animals see colour? - AdelaideVet — https://adelaidevet.com.au/pet-library/can-animals-see-colour/
+  • Do dogs really see in just black and white? — https://theconversation.com/do-dogs-really-see-in-just-black-and-white-131438
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 12:45:30
+🔎 Claim: dogs can only see in black and white
+🗣️ Agent would say (full): Actually, that’s incorrect — According to Do dogs see only in black and white?, The evidence overwhelmingly contradicts the claim that dogs can only see in black and white. All provided snippets indicate that while it was once a common belief, recent studies and scientific consensus have proven this to be a myth.
+📚 Sources:
+  • Do dogs see only in black and white? — https://www.pedigree.com/dog-care-articles/our-help-hub/training-resources/do-dogs-see-only-in-black-and-white
+  • Can animals see colour? - AdelaideVet — https://adelaidevet.com.au/pet-library/can-animals-see-colour/
+  • Do dogs really see in just black and white? — https://theconversation.com/do-dogs-really-see-in-just-black-and-white-131438
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 12:47:04
+🔎 Claim: dogs can only see in black and white
+🗣️ Agent would say (full): That’s not true — According to Do dogs see only in black and white?, Research shows snippets contradict the claim that dogs can only see in black and white.
+📚 Sources:
+  • Do dogs see only in black and white? — https://www.pedigree.com/dog-care-articles/our-help-hub/training-resources/do-dogs-see-only-in-black-and-white
+  • Can animals see colour? - AdelaideVet — https://adelaidevet.com.au/pet-library/can-animals-see-colour/
+  • Do dogs really see in just black and white? — https://theconversation.com/do-dogs-really-see-in-just-black-and-white-131438
+--------------------------------------------------------------------------------
+
+🕓 2025-10-28 12:57:02
+🔎 Claim: dogs can only see in black and white
+🗣️ Agent would say (full): That’s not true — According to Do dogs see only in black and white?, The provided evidence overwhelmingly contradicts the claim that dogs can only see in black and white. Multiple snippets state that this idea is a myth and that recent studies suggest that they actually do have some colour vision.
+📚 Sources:
+  • Do dogs see only in black and white? — https://www.pedigree.com/dog-care-articles/our-help-hub/training-resources/do-dogs-see-only-in-black-and-white
+  • Can animals see colour? - AdelaideVet — https://adelaidevet.com.au/pet-library/can-animals-see-colour/
+  • Do dogs really see in just black and white? — https://theconversation.com/do-dogs-really-see-in-just-black-and-white-131438
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:06:22
+🔎 Claim: the moon is made of cheese
+🗣️ Agent would say (full): That’s not true — According to Wikipedia, The provided evidence overwhelmingly indicates that the claim the moon is made of cheese is a fanciful belief, not a scientific fact. Multiple snippets explain that no one believed it (.
+📚 Sources:
+  • The Moon is made of green cheese - Wikipedia — https://en.wikipedia.org/wiki/The_Moon_is_made_of_green_cheese
+  • Where does the idea that the moon is made of cheese actually come ... — https://www.reddit.com/r/NoStupidQuestions/comments/qxx5e3/where_does_the_idea_that_the_moon_is_made_of/
+  • Why Do People Say the Moon is Made of Cheese? — https://www.mentalfloss.com/article/53107/why-do-people-say-moon-made-cheese
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:09:08
+🔎 Claim: whales are fish
+🗣️ Agent would say (full): That’s not true — According to Whales are fish : r/sciencememes, The claim whales are fish is contradicted by the majority of reputable evidence provided. Snippets from The MIT Press Reader and Whale and Dolphin Conservation explain that whales are mammals, not fish.
+📚 Sources:
+  • Whales are fish : r/sciencememes — https://www.reddit.com/r/sciencememes/comments/16so199/whales_are_fish/
+  • Are Whales Fish? | The MIT Press Reader — https://thereader.mitpress.mit.edu/are-whales-fish/
+  • Question for the "whales are technically fish" crowd : r/Paleontology — https://www.reddit.com/r/Paleontology/comments/vptrxu/question_for_the_whales_are_technically_fish_crowd/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:21:12
+🔎 Claim: bats are blind
+🗣️ Agent would say (full): That’s not true — According to Are bats blind? | U.S. Geological Survey, Research shows from reputable sources (U.S. Geological Survey, Bat Conservation International, Britannica) explains that bats are not blind.
+📚 Sources:
+  • Are bats blind? | U.S. Geological Survey — https://www.usgs.gov/faqs/are-bats-blind
+  • Blind as a Bat? No Such Thing - Bat Conservation International — https://www.batcon.org/blind-as-a-bat-no-such-thing/
+  • are bats actually blind or is it just a myth and do they have really ... — https://www.reddit.com/r/askscience/comments/vv6utt/are_bats_actually_blind_or_is_it_just_a_myth_and/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:21:37
+🔎 Claim: lightning never strikes the same place twice
+🗣️ Agent would say (full): Actually, that’s incorrect — According to 5 striking facts versus myths about lightning you should know ..., All provided snippets directly contradict the claim. They state that lightning can, and often does, strike the same place repeatedly, label the claim as a myth or popular misconception, and emphasize that it often strikes the same place twice, especially for tall, isolated objects.
+📚 Sources:
+  • 5 striking facts versus myths about lightning you should know ... — https://www.noaa.gov/stories/5-striking-facts-versus-myths-about-lightning-you-should-know
+  • Can Lightning Strike the Same Place Twice? | Britannica — https://www.britannica.com/story/can-lightning-strike-the-same-place-twice
+  • Lightning Often Strikes Twice | NASA Spinoff — https://spinoff.nasa.gov/Spinoff2005/ps_3.html
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:25:24
+🔎 Claim: the earth is flat
+🗣️ Agent would say (full): That’s not true — According to Why the Earth is actually 100% flat | Science | The Guardian, The provided evidence overwhelmingly contradicts the claim that the Earth is flat. Several snippets directly state that the Flat Earth conception is scientifically disproven (Wikipedia) and that we live on a bumpy, mountainous, cavernous globe (BBC Earth).
+📚 Sources:
+  • Why the Earth is actually 100% flat | Science | The Guardian — https://www.theguardian.com/science/brain-flapping/2016/jan/26/earth-totally-flat-conspiracy-bob
+  • Flat Earth - Wikipedia — https://en.wikipedia.org/wiki/Flat_Earth
+  • Why do people still believe the Earth is Flat instead of Round? That ... — https://www.reddit.com/r/space/comments/6vc6nc/why_do_people_still_believe_the_earth_is_flat/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:34:02
+🔎 Claim: whales are fish
+🗣️ Agent would say (full): That’s not true — According to Whales are fish : r/sciencememes, The claim whales are fish is went against by reputable sources provided in the evidence. Snippets from The MIT Press Reader and Whale and Dolphin Conservation explain that Whales are not fish.
+📚 Sources:
+  • Whales are fish : r/sciencememes — https://www.reddit.com/r/sciencememes/comments/16so199/whales_are_fish/
+  • Are Whales Fish? | The MIT Press Reader — https://thereader.mitpress.mit.edu/are-whales-fish/
+  • Question for the "whales are technically fish" crowd : r/Paleontology — https://www.reddit.com/r/Paleontology/comments/vptrxu/question_for_the_whales_are_technically_fish_crowd/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:37:40
+🔎 Claim: the great wall of china is visible from space
+🗣️ Agent would say (full): That’s not true—According to NASA, Multiple reputable sources contradict the claim that the Great Wall of China is visible from space. NASA explains its not visible from the moon.
+📚 Sources:
+  • Great Wall - NASA — https://www.nasa.gov/image-article/great-wall/
+  • Is China's Great Wall Visible from Space? | Scientific American — https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space/
+  • TIL the Great Wall of China is not actually visible from space, its just ... — https://www.reddit.com/r/todayilearned/comments/1kg3uwe/til_the_great_wall_of_china_is_not_actually/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:38:26
+🔎 Claim: octopuses have three hearts
+🗣️ Agent would say (full): That’s true—According to here are eight examples how ..., Research shows snippets explain that octopuses have three hearts. I hope that clears things up.
+📚 Sources:
+  • Octopuses keep surprising us - here are eight examples how ... — https://www.nhm.ac.uk/discover/octopuses-keep-surprising-us-here-are-eight-examples-how.html
+  • Nine Brains, Three Hearts and Other Octopus Anatomy Facts — https://now.northropgrumman.com/nine-brains-three-hearts-and-other-octopus-anatomy-facts
+  • How many hearts does an octopus have? | New Scientist — https://www.newscientist.com/question/many-hearts-octopus/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:41:55
+🔎 Claim: the sun is a star
+🗣️ Agent would say (full): That’s true—According to NASA Science, Multiple reputable sources directly state that the Sun is a star. The NASA Science snippets explicitly say, The Sun is the star at the heart of our solar system and Our Sun is a 4.5 billion-year-old yellow dwarf star.
+📚 Sources:
+  • Sun - NASA Science — https://science.nasa.gov/sun/
+  • Sun - Wikipedia — https://en.wikipedia.org/wiki/Sun
+  • Sun: Facts - NASA Science — https://science.nasa.gov/sun/facts/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:42:34
+🔎 Claim: bananas grow on trees
+🗣️ Agent would say (full): That’s true—According to Go Bananas! | San Diego Zoo Wildlife Explorers, The claim states that bananas grow on trees. However, multiple reputable sources in the evidence contradict this.
+📚 Sources:
+  • Go Bananas! | San Diego Zoo Wildlife Explorers — https://sdzwildlifeexplorers.org/stories/go-bananas
+  • Growing Bananas - How To Grow Banana Plants And Keep Them ... — https://www.tropicalpermaculture.com/growing-bananas.html
+  • Banana trees grow FAST. This is the progression of my favorite plant ... — https://www.reddit.com/r/houseplants/comments/r6tfz7/banana_trees_grow_fast_this_is_the_progression_of/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:46:27
+🔎 Claim: penguins live in the artic
+🗣️ Agent would say (full): That’s not true—According to Aurora Expeditions, Research shows explains that penguins do not live in the Arctic. Multiple snippets clarify that penguins live in the Southern Hemisphere, primarily Antarctica, and that the idea of them living in the Arctic is a common mistake or myth.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Does a colony of penguins stand s chance in the north pole? What ... — https://www.reddit.com/r/askscience/comments/1340op/does_a_colony_of_penguins_stand_s_chance_in_the/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:47:23
+🔎 Claim: there is gravity on the moon
+🗣️ Agent would say (full): That’s true—According to How did we know the gravity on the moon's surface before we ..., All provided snippets unequivocally state that there is gravity on the Moon. It matches what helpers like teachers and scientists explain.
+📚 Sources:
+  • How did we know the gravity on the moon's surface before we ... — https://www.reddit.com/r/askscience/comments/58wvdb/how_did_we_know_the_gravity_on_the_moons_surface/
+  • Is there air on our Moon? Does the Moon have gravity? | Science ... — https://www.uu.edu/dept/physics/scienceguys/2002Jan.cfm
+  • If the moon is only 1.2% the mass of Earth, why does it half roughly a ... — https://www.reddit.com/r/askscience/comments/som6ni/if_the_moon_is_only_12_the_mass_of_earth_why_does/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:48:08
+🔎 Claim: the first computer was invented in the 2000s
+🗣️ Agent would say (full): That’s not true—According to 2000 | Timeline of Computer History | Computer History Museum, However, the provided evidence directly goes against this. Let’s double-check it again later just to be sure.
+📚 Sources:
+  • 2000 | Timeline of Computer History | Computer History Museum — https://www.computerhistory.org/timeline/2000/
+  • The History of Firewalls | Who Invented the Firewall? - Palo Alto ... — https://www.paloaltonetworks.com/cyberpedia/history-of-firewalls
+  • Computers | Timeline of Computer History | Computer History Museum — https://www.computerhistory.org/timeline/computers/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:48:33
+🔎 Claim: the nile river flows through egypt
+🗣️ Agent would say (full): That’s true—According to Wikipedia, Multiple snippets explain that the Nile River flows through Egypt. For example, From there, the river continues to flow north through Egypt and, finally, into.
+📚 Sources:
+  • Nile - Wikipedia — https://en.wikipedia.org/wiki/Nile
+  • Nile River | Start, Map, Length, Facts, Continent, History, & Location ... — https://www.britannica.com/place/Nile-River
+  • Nile river facts for kids | Geography - National Geographic Kids — https://www.natgeokids.com/uk/discover/geography/physical-geography/nile-river-facts/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:52:25
+🔎 Claim: penguins live in the artic
+🗣️ Agent would say (full): That’s not true—According to Aurora Expeditions, Research shows directly goes against the claim. Let’s double-check it again later just to be sure.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Does a colony of penguins stand s chance in the north pole? What ... — https://www.reddit.com/r/askscience/comments/1340op/does_a_colony_of_penguins_stand_s_chance_in_the/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:54:42
+🔎 Claim: the nile flows through egypt
+🗣️ Agent would say (full): That’s true—According to Wikipedia, the information I saw says this is correct. It matches what helpers like teachers and scientists explain.
+📚 Sources:
+  • Nile - Wikipedia — https://en.wikipedia.org/wiki/Nile
+  • Nile river facts for kids | Geography - National Geographic Kids — https://www.natgeokids.com/uk/discover/geography/physical-geography/nile-river-facts/
+  • Nile River | Start, Map, Length, Facts, Continent, History, & Location ... — https://www.britannica.com/place/Nile-River
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:58:25
+🔎 Claim: penguins live in the artic
+🗣️ Agent would say (full): That’s not true—According to Aurora Expeditions, the information I saw says this isn’t right. Penguins live in Antarctica, not the Arctic.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Does a colony of penguins stand s chance in the north pole? What ... — https://www.reddit.com/r/askscience/comments/1340op/does_a_colony_of_penguins_stand_s_chance_in_the/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:58:59
+🔎 Claim: the nile flows through egypt
+🗣️ Agent would say (full): That’s true—According to Wikipedia, For instance, The Nile passes through Cairo, Egypts capital city. 4) The Blue Nile and White Nile merge together in the city of Khartoum in Sudan.
+📚 Sources:
+  • Nile - Wikipedia — https://en.wikipedia.org/wiki/Nile
+  • Nile river facts for kids | Geography - National Geographic Kids — https://www.natgeokids.com/uk/discover/geography/physical-geography/nile-river-facts/
+  • Nile River | Start, Map, Length, Facts, Continent, History, & Location ... — https://www.britannica.com/place/Nile-River
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 12:59:27
+🔎 Claim: the sahara is the largest desert on earth
+🗣️ Agent would say (full): That’s not true—According to Sahara: The Largest Desert On Earth | Journeys To The Ends Of The ..., the information I saw says this isn’t right. Sep 14, 2022 .
+📚 Sources:
+  • Sahara: The Largest Desert On Earth | Journeys To The Ends Of The ... — https://www.youtube.com/watch?v=K946mptgzTU
+  • Not all Deserts are Sandy — https://education.nationalgeographic.org/resource/deserts/
+  • Sahara - Wikipedia — https://en.wikipedia.org/wiki/Sahara
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:04:36
+🔎 Claim: astronuats grow taller in space
+🗣️ Agent would say (full): That’s true—According to what's your space height? | nasa, All provided notes from trusted sources like NASA and Scientific American confirm that astronauts grow taller in space due to microgravity causing the spine to elongate. Imagine what happens to astronauts who don't experience the effect of gravity for months at a time.
+📚 Sources:
+  • what's your space height? | nasa — https://www.nasa.gov/wp-content/uploads/2018/05/whatisyourspaceheight.pdf
+  • Strange but True: Astronauts Get Taller in Space | Scientific American — https://www.scientificamerican.com/article/astronauts-get-taller-in-space/
+  • Space Makes Astronauts Grow Taller, But It Also Causes Back ... — https://www.smithsonianmag.com/smart-news/space-makes-astronauts-grow-taller-and-also-backs-180960922/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:05:09
+🔎 Claim: the sun revolves around the earth
+🗣️ Agent would say (full): That’s not true—According to Is it wrong to say that the sun turns around the earth ? : r/AskPhysics, So, yes the planets orbit the sun. Dec 16, 2024 .
+📚 Sources:
+  • Is it wrong to say that the sun turns around the earth ? : r/AskPhysics — https://www.reddit.com/r/AskPhysics/comments/1hfqp71/is_it_wrong_to_say_that_the_sun_turns_around_the/
+  • The Earth Is Not Revolving Around The Sun But Something Else ... — https://www.ndtv.com/science/the-earth-is-not-revolving-around-the-sun-but-something-else-nearby-nasa-explains-what-it-is-6116873
+  • "The sun revolves around the earth" : r/confidentlyincorrect — https://www.reddit.com/r/confidentlyincorrect/comments/xblieb/the_sun_revolves_around_the_earth/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:10:20
+🔎 Claim: the sun revolves around the earth
+🗣️ Agent would say (full): I’m not completely sure—According to what I found, I couldnt reach the fact-check server just now to double-check this claim. Let’s look for more kid-friendly sources together.
+⚠️ Note: The fact-check server took too long to reply. (details: timeout)
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:10:53
+🔎 Claim: penguins live in the artic
+🗣️ Agent would say (full): That’s not true—According to National Geographic, Research shows that penguins do not live in the Arctic. There are no penguins in the Arctic or the South Pole.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Does a colony of penguins stand s chance in the north pole? What ... — https://www.reddit.com/r/askscience/comments/1340op/does_a_colony_of_penguins_stand_s_chance_in_the/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:11:38
+🔎 Claim: snakes smell with their tongues
+🗣️ Agent would say (full): That’s true—According to Wsu, But a snake's tongue is also very important. The evidence strongly supports the claim.
+📚 Sources:
+  • If snakes smell with their tongues, what do they do with their noses ... — https://askdruniverse.wsu.edu/2019/10/11/snakes-smell-tongues-noses/
+  • Do Snakes Really Smell with their Tongues — https://animalsmart.org/kids'-zone/do-snakes-really-smell-with-their-tongues
+  • ELI5: how do snakes smell with their tongue? : r/explainlikeimfive — https://www.reddit.com/r/explainlikeimfive/comments/kqsbcn/eli5_how_do_snakes_smell_with_their_tongue/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:12:11
+🔎 Claim: the sun revolves around the earth
+🗣️ Agent would say (full): That’s not true—According to Ndtv, New insights into planetary motion reveal that Earth is not technically orbiting the Sun. Instead, both the Sun and Earth go around around a .
+📚 Sources:
+  • Is it wrong to say that the sun turns around the earth ? : r/AskPhysics — https://www.reddit.com/r/AskPhysics/comments/1hfqp71/is_it_wrong_to_say_that_the_sun_turns_around_the/
+  • The Earth Is Not Revolving Around The Sun But Something Else ... — https://www.ndtv.com/science/the-earth-is-not-revolving-around-the-sun-but-something-else-nearby-nasa-explains-what-it-is-6116873
+  • "The sun revolves around the earth" : r/confidentlyincorrect — https://www.reddit.com/r/confidentlyincorrect/comments/xblieb/the_sun_revolves_around_the_earth/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:17:14
+🔎 Claim: elephants cannot jump
+🗣️ Agent would say (full): That’s true—According to Science, All provided notes consistently state that elephants cannot jump. Unlike most mammals, the bones in elephant legs are all pointed downwards, which means they don't have the spring required to push off the ground.
+📚 Sources:
+  • Elephants can't jump—and here's why | Science | AAAS — https://www.science.org/content/article/elephants-can-t-jump-and-here-s-why
+  • TIL Elephants can't jump. Unlike most mammals, the bones in ... — https://www.reddit.com/r/todayilearned/comments/1402b9n/til_elephants_cant_jump_unlike_most_mammals_the/
+  • Why is the elephant the only mammal that cannot jump? - Quora — https://www.quora.com/Why-is-the-elephant-the-only-mammal-that-cannot-jump
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:18:53
+🔎 Claim: africa is the largest continent
+🗣️ Agent would say (full): That’s not true—According to Wikipedia, All provided notes consistently state that Africa is *not* the largest continent. Several sources explain that Asia is the largest continent, both by landmass and population, and that Africa is the second-largest.
+📚 Sources:
+  • Why is Africa, as the largest continent, the smallest on the world map ... — https://www.quora.com/Why-is-Africa-as-the-largest-continent-the-smallest-on-the-world-map
+  • Africa - Wikipedia — https://en.wikipedia.org/wiki/Africa
+  • Is it true that Africa is the largest continent in terms of landmass but ... — https://www.quora.com/Is-it-true-that-Africa-is-the-largest-continent-in-terms-of-landmass-but-not-population-If-so-why-is-this-the-case
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:19:55
+🔎 Claim: the sun revolves around the earth
+🗣️ Agent would say (full): That’s not true—According to Ndtv, Notes state the planets go around the sun, and that the Earth is in go around around the Sun. New insights into planetary motion reveal that Earth is not technically orbiting the Sun.
+📚 Sources:
+  • Is it wrong to say that the sun turns around the earth ? : r/AskPhysics — https://www.reddit.com/r/AskPhysics/comments/1hfqp71/is_it_wrong_to_say_that_the_sun_turns_around_the/
+  • The Earth Is Not Revolving Around The Sun But Something Else ... — https://www.ndtv.com/science/the-earth-is-not-revolving-around-the-sun-but-something-else-nearby-nasa-explains-what-it-is-6116873
+  • "The sun revolves around the earth" : r/confidentlyincorrect — https://www.reddit.com/r/confidentlyincorrect/comments/xblieb/the_sun_revolves_around_the_earth/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:20:31
+🔎 Claim: the sahara is the largest desert on earth
+🗣️ Agent would say (full): That’s not true—According to Wikipedia, With an area of 9,200,000 square kilometres (3,600,000 sq mi), it is the largest hot desert in the world and the third-largest desert overall, smaller only than. The largest desert on Earth is Antarctica, which covers 14.2 million square kilometers (5.5 million square miles).
+📚 Sources:
+  • Sahara: The Largest Desert On Earth | Journeys To The Ends Of The ... — https://www.youtube.com/watch?v=K946mptgzTU
+  • Not all Deserts are Sandy — https://education.nationalgeographic.org/resource/deserts/
+  • Sahara - Wikipedia — https://en.wikipedia.org/wiki/Sahara
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:21:26
+🔎 Claim: dogs can only see in black and white
+🗣️ Agent would say (full): That’s not true—According to Pedigree, Veterinarians used to believe that dogs saw only in black and white, but recent studies suggest that they actually do have some colour vision—but it's not as. Dogs definitely see the world differently than people do, but it's a myth that their view is just black, white and grim shades of gray.
+📚 Sources:
+  • Do dogs see only in black and white? — https://www.pedigree.com/dog-care-articles/our-help-hub/training-resources/do-dogs-see-only-in-black-and-white
+  • Can animals see colour? - AdelaideVet — https://adelaidevet.com.au/pet-library/can-animals-see-colour/
+  • Do dogs really see in just black and white? — https://theconversation.com/do-dogs-really-see-in-just-black-and-white-131438
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:24:16
+🔎 Claim: elephants cant jump
+🗣️ Agent would say (full): That’s true—According to science.org, Unlike most mammals, the bones in elephant legs are all pointed downwards, which means they don't have the spring required to push off the ground. That matches what teachers and scientists explain.
+📚 Sources:
+  • Elephants can't jump—and here's why | Science | AAAS — https://www.science.org/content/article/elephants-can-t-jump-and-here-s-why
+  • TIL Elephants can't jump. Unlike most mammals, the bones in ... — https://www.reddit.com/r/todayilearned/comments/1402b9n/til_elephants_cant_jump_unlike_most_mammals_the/
+  • Elephants Can't Jump - Brand Strategy, Consumer Insight & Innovation — https://elephantscantjump.com/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:25:07
+🔎 Claim: africa is the largest continent
+🗣️ Agent would say (full): That’s not true—According to wikipedia.org, Africa is the world's second-largest and second-most populous continent after Asia. Asia is the biggest continent on Earth.
+📚 Sources:
+  • Why is Africa, as the largest continent, the smallest on the world map ... — https://www.quora.com/Why-is-Africa-as-the-largest-continent-the-smallest-on-the-world-map
+  • Africa - Wikipedia — https://en.wikipedia.org/wiki/Africa
+  • Is it true that Africa is the largest continent in terms of landmass but ... — https://www.quora.com/Is-it-true-that-Africa-is-the-largest-continent-in-terms-of-landmass-but-not-population-If-so-why-is-this-the-case
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:25:35
+🔎 Claim: penguins live in the artic
+🗣️ Agent would say (full): That’s not true—According to nationalgeographic.com, Sources like Aurora Expeditions, Penguins dont live at the South Pole, and more polar myths, and Poseidon Expeditions directly state Penguins live in Antarctica, not the Arctic, There are no penguins in the Arctic, and Penguins live in the Southern Hemisphere. There are no penguins in the Arctic or the South Pole.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Does a colony of penguins stand s chance in the north pole? What ... — https://www.reddit.com/r/askscience/comments/1340op/does_a_colony_of_penguins_stand_s_chance_in_the/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:30:54
+🔎 Claim: penguins live in the artic
+🗣️ Agent would say (full): That’s not true—According to nationalgeographic.com, Penguins live in Antarctica, not the Arctic. One of the most common mistakes is that penguins live in the Arctic.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Does a colony of penguins stand s chance in the north pole? What ... — https://www.reddit.com/r/askscience/comments/1340op/does_a_colony_of_penguins_stand_s_chance_in_the/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:31:16
+🔎 Claim: turtles can come out of their shells
+🗣️ Agent would say (full): That’s not true—According to reddit.com, The provided evidence really and consistently states that turtles cannot come out of their shells. And all those cartoons where the characters who are turtles can just take off their shell like it's a.
+📚 Sources:
+  • This is why turtle cannot come out from its shell : r/interestingasfuck — https://www.reddit.com/r/interestingasfuck/comments/cqcrss/this_is_why_turtle_cannot_come_out_from_its_shell/
+  • This why turtles can not come out of their shells — https://www.facebook.com/groups/290467178273078/posts/1138401453479642/
+  • Turtles are not inside their shells : r/BeAmazed — https://www.reddit.com/r/BeAmazed/comments/1aulyl6/turtles_are_not_inside_their_shells/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:32:21
+🔎 Claim: bees die when they sting you
+🗣️ Agent would say (full): That’s not true—According to pbs.org, While the evidence consistently confirms that *honeybees* die after stinging, especially humans, due to their barbed stingers, it also explains that this applies to Only honey bees (genus Apis, constituting less than 10 of the 20,000 known bee species) and that Most bees don't die after stinging. The bee's stinger is structured in such a way that once it punctures human skin, the bee can't yank it out.
+📚 Sources:
+  • Why do honeybees die when they sting? | PBS News — https://www.pbs.org/newshour/science/honeybee-sting-kill-bee
+  • Why does evolution cause bees to die when stinging? : r/evolution — https://www.reddit.com/r/evolution/comments/1bddk9f/why_does_evolution_cause_bees_to_die_when_stinging/
+  • 2024 | Most bees don't die after stinging - and other surprising bee ... — https://www.uow.edu.au/media/2024/most-bees-dont-die-after-stinging---and-other-surprising-beefacts.php
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:33:07
+🔎 Claim: lightning can never hit the same place twice
+🗣️ Agent would say (full): That’s not true—According to noaa.gov, They consistently affirm that lightning can, and often does, strike the same place multiple times, especially tall or isolated objects. The idea that lightning never strikes the same place twice is actually a myth.
+📚 Sources:
+  • [request] if lightning really doesn't strike the same place twice ... — https://www.reddit.com/r/theydidthemath/comments/11255kj/request_if_lightning_really_doesnt_strike_the/
+  • 5 striking facts versus myths about lightning you should know ... — https://www.noaa.gov/stories/5-striking-facts-versus-myths-about-lightning-you-should-know
+  • Can Lightning Strike the Same Place Twice? | Britannica — https://www.britannica.com/story/can-lightning-strike-the-same-place-twice
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:34:28
+🔎 Claim: your heart is shaped like a cartoon heart
+🗣️ Agent would say (full): I’m not completely sure—According to what I found, I couldnt reach the fact-check server just now to double-check this claim. We need a bit more clear information to be sure.
+⚠️ Note: The fact-check server took too long to reply. (details: timeout)
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:35:01
+🔎 Claim: the moon is made of cheese
+🗣️ Agent would say (full): That’s not true—According to wikipedia.org, The Moon is made of green cheese" is a statement referring to a fanciful belief that the Moon is composed of cheese. The provided evidence really indicates that the claim the moon is made of cheese is a fanciful belief and not a scientific fact.
+📚 Sources:
+  • The Moon is made of green cheese - Wikipedia — https://en.wikipedia.org/wiki/The_Moon_is_made_of_green_cheese
+  • Where does the idea that the moon is made of cheese actually come ... — https://www.reddit.com/r/NoStupidQuestions/comments/qxx5e3/where_does_the_idea_that_the_moon_is_made_of/
+  • Why Do People Say the Moon is Made of Cheese? — https://www.mentalfloss.com/article/53107/why-do-people-say-moon-made-cheese
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:35:44
+🔎 Claim: elephants have teo noses
+🗣️ Agent would say (full): That’s not true—According to globalelephants.org, The evidence indicates that an elephants trunk is considered its single nose, even though it contains two separate nostrils, much like a humans single nose has two nostrils. This is a common mistake people sometimes believe.
+📚 Sources:
+  • TWO-TRUNKS, MEET HUMPHREY! - ShukerNature — https://karlshuker.blogspot.com/2010/11/two-trunks-meet-humphrey.html
+  • Elephant Trunks Are Incredible! — https://globalelephants.org/elephant-trunks-are-incredible/
+  • Our top 10 facts about elephants | WWF — https://www.wwf.org.uk/learn/fascinating-facts/elephants
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:39:31
+🔎 Claim: dusk is the same as dawn
+🗣️ Agent would say (full): That’s not true—According to timeanddate.com, The trusted evidence clearly distinguishes dawn from dusk. We all know that sunrise or dawn is when the sun comes up, and sunset or dusk is when it goes down.
+📚 Sources:
+  • ELI5: Can someone explain the terms twilight, dawn & dusk in ... — https://www.reddit.com/r/explainlikeimfive/comments/1enqmrh/eli5_can_someone_explain_the_terms_twilight_dawn/
+  • The Different Types of Twilight, Dawn and Dusk — https://www.timeanddate.com/astronomy/different-types-twilight.html
+  • Dawn, dusk and twilight | Meanings and Timings — https://www.rmg.co.uk/stories/time/when-dawn-dusk-twilight
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:40:31
+🔎 Claim: elephants have two noses
+🗣️ Agent would say (full): That’s not true—According to nih.gov, Does not show that, which might lead people to think an elephant has two noses. We demonstrate that elephants are able to discriminate between two distinct quantities using their olfactory sense alone.
+📚 Sources:
+  • Elephants have a nose for quantity | PNAS — https://www.pnas.org/doi/10.1073/pnas.1818284116
+  • Elephants have a nose for quantity — https://pubmed.ncbi.nlm.nih.gov/31160445/
+  • Elephants have a long trunk/trunks. | WordReference Forums — https://forum.wordreference.com/threads/elephants-have-a-long-trunk-trunks.2040841/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:41:14
+🔎 Claim: the moon is made of cheese
+🗣️ Agent would say (full): That’s not true—According to wikipedia.org, The Moon is made of green cheese" is a statement referring to a fanciful belief that the Moon is composed of cheese. The majority of the provided evidence explains that the idea of the moon being made of cheese is a fanciful belief and that no one believed it, at least not academically.
+📚 Sources:
+  • The Moon is made of green cheese - Wikipedia — https://en.wikipedia.org/wiki/The_Moon_is_made_of_green_cheese
+  • Where does the idea that the moon is made of cheese actually come ... — https://www.reddit.com/r/NoStupidQuestions/comments/qxx5e3/where_does_the_idea_that_the_moon_is_made_of/
+  • Why Do People Say the Moon is Made of Cheese? — https://www.mentalfloss.com/article/53107/why-do-people-say-moon-made-cheese
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:41:37
+🔎 Claim: elephants have teo noses
+🗣️ Agent would say (full): That’s not true—According to globalelephants.org, While an elephants trunk does contain two separate nostrils (as stated in Elephant Trunks Are Incredible!), this does not mean they have two noses. The evidence really indicates that elephants have one trunk, which functions as their nose.
+📚 Sources:
+  • TWO-TRUNKS, MEET HUMPHREY! - ShukerNature — https://karlshuker.blogspot.com/2010/11/two-trunks-meet-humphrey.html
+  • Elephant Trunks Are Incredible! — https://globalelephants.org/elephant-trunks-are-incredible/
+  • Our top 10 facts about elephants | WWF — https://www.wwf.org.uk/learn/fascinating-facts/elephants
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:50:31
+🔎 Claim: elephants have two noses
+🗣️ Agent would say (full): That’s not true—According to nih.gov, The claim that elephants have two noses is went against by the provided evidence. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Elephants have a nose for quantity | PNAS — https://www.pnas.org/doi/10.1073/pnas.1818284116
+  • Elephants have a nose for quantity — https://pubmed.ncbi.nlm.nih.gov/31160445/
+  • Elephants have a long trunk/trunks. | WordReference Forums — https://forum.wordreference.com/threads/elephants-have-a-long-trunk-trunks.2040841/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:50:54
+🔎 Claim: dolphins talk to each other
+🗣️ Agent would say (full): That’s true—According to youtube.com, The provided evidence really supports the claim that dolphins talk to each other. That matches what teachers and scientists explain.
+📚 Sources:
+  • TIL Dolphins will communicate with one another over a telephone ... — https://www.reddit.com/r/todayilearned/comments/2uqze2/til_dolphins_will_communicate_with_one_another/
+  • Incredible Dolphins Love Talking To Each Other | Animal ... — https://www.youtube.com/watch?v=uprbLVkVgks
+  • Bottlenose dolphins learn language the same way humans do: they ... — https://www.reddit.com/r/Awwducational/comments/z12s72/bottlenose_dolphins_learn_language_the_same_way/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:53:11
+🔎 Claim: elephants have two noses
+🗣️ Agent would say (full): That’s not true—According to nih.gov, Does not show that, which might lead people to think an elephant has two noses. The provided evidence consistently uses a nose (singular) when referring to an elephants olfactory organ/trunk (.
+📚 Sources:
+  • Elephants have a nose for quantity | PNAS — https://www.pnas.org/doi/10.1073/pnas.1818284116
+  • Elephants have a nose for quantity — https://pubmed.ncbi.nlm.nih.gov/31160445/
+  • Elephants have a long trunk/trunks. | WordReference Forums — https://forum.wordreference.com/threads/elephants-have-a-long-trunk-trunks.2040841/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:53:34
+🔎 Claim: elephants have teo noses
+🗣️ Agent would say (full): That’s not true—According to nih.gov, Does not show that, which might lead people to think an elephant has two noses. We demonstrate that elephants are able to discriminate between two distinct quantities using their olfactory sense alone.
+📚 Sources:
+  • Elephants have a nose for quantity | PNAS — https://www.pnas.org/doi/10.1073/pnas.1818284116
+  • Elephants have a nose for quantity — https://pubmed.ncbi.nlm.nih.gov/31160445/
+  • Elephants have a long trunk/trunks. | WordReference Forums — https://forum.wordreference.com/threads/elephants-have-a-long-trunk-trunks.2040841/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:54:24
+🔎 Claim: penguins live in the artic
+🗣️ Agent would say (full): That’s not true—According to nationalgeographic.com, Penguins live in Antarctica, not the Arctic. One of the most common mistakes is that penguins live in the Arctic.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Why don't penguins live in the Arctic? : r/askscience — https://www.reddit.com/r/askscience/comments/fnnayc/why_dont_penguins_live_in_the_arctic/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:54:42
+🔎 Claim: dolphins talk to each other
+🗣️ Agent would say (full): That’s true—According to youtube.com, The provided Google search notes consistently and strongly support the claim that dolphins talk to each other. That matches what teachers and scientists explain.
+📚 Sources:
+  • TIL Dolphins will communicate with one another over a telephone ... — https://www.reddit.com/r/todayilearned/comments/2uqze2/til_dolphins_will_communicate_with_one_another/
+  • Incredible Dolphins Love Talking To Each Other | Animal ... — https://www.youtube.com/watch?v=uprbLVkVgks
+  • Bottlenose dolphins learn language the same way humans do: they ... — https://www.reddit.com/r/Awwducational/comments/z12s72/bottlenose_dolphins_learn_language_the_same_way/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:55:03
+🔎 Claim: lightning can never hit the same place twice
+🗣️ Agent would say (full): That’s not true—According to noaa.gov, Research shows consistently states that the idea that lightning can never hit the same place twice is a myth. The idea that lightning never strikes the same place twice is actually a myth.
+📚 Sources:
+  • [request] if lightning really doesn't strike the same place twice ... — https://www.reddit.com/r/theydidthemath/comments/11255kj/request_if_lightning_really_doesnt_strike_the/
+  • 5 striking facts versus myths about lightning you should know ... — https://www.noaa.gov/stories/5-striking-facts-versus-myths-about-lightning-you-should-know
+  • Can Lightning Strike the Same Place Twice? | Britannica — https://www.britannica.com/story/can-lightning-strike-the-same-place-twice
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 13:59:56
+🔎 Claim: lightning can never hit the same place twice
+🗣️ Agent would say (full): That’s not true—According to noaa.gov, They consistently confirm that lightning can and often does strike the same place multiple times, especially tall and isolated objects. The idea that lightning never strikes the same place twice is actually a myth.
+📚 Sources:
+  • [request] if lightning really doesn't strike the same place twice ... — https://www.reddit.com/r/theydidthemath/comments/11255kj/request_if_lightning_really_doesnt_strike_the/
+  • 5 striking facts versus myths about lightning you should know ... — https://www.noaa.gov/stories/5-striking-facts-versus-myths-about-lightning-you-should-know
+  • Can Lightning Strike the Same Place Twice? | Britannica — https://www.britannica.com/story/can-lightning-strike-the-same-place-twice
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:00:21
+🔎 Claim: elephants have two noses
+🗣️ Agent would say (full): That’s not true—According to nih.gov, Specifically, one notes from WordReference Forums directly addresses this, stating #2. Does not show that, which might lead people to think an elephant has two noses.
+📚 Sources:
+  • Elephants have a nose for quantity | PNAS — https://www.pnas.org/doi/10.1073/pnas.1818284116
+  • Elephants have a nose for quantity — https://pubmed.ncbi.nlm.nih.gov/31160445/
+  • Elephants have a long trunk/trunks. | WordReference Forums — https://forum.wordreference.com/threads/elephants-have-a-long-trunk-trunks.2040841/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:00:53
+🔎 Claim: dolphins can talk to each other
+🗣️ Agent would say (full): That’s true—According to science.org, The evidence strongly supports the claim that dolphins can talk to each other. That matches what teachers and scientists explain.
+📚 Sources:
+  • Bottlenose dolphins learn language the same way humans do: they ... — https://www.reddit.com/r/Awwducational/comments/z12s72/bottlenose_dolphins_learn_language_the_same_way/
+  • Watch dolphins 'talk' to each other to synchronize their behaviors ... — https://www.science.org/content/article/watch-dolphins-talk-each-other-synchronize-their-behaviors
+  • TIL Dolphins will communicate with one another over a telephone ... — https://www.reddit.com/r/todayilearned/comments/2uqze2/til_dolphins_will_communicate_with_one_another/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:01:28
+🔎 Claim: bees die when they sting you
+🗣️ Agent would say (full): That’s not true—According to pbs.org, The bee's stinger is structured in such a way that once it punctures human skin, the bee can't yank it out. While honeybees (genus Apis) do die after stinging humans or other thick-skinned mammals due to their barbed stingers, they constitute a very small percentage (less than 10 out of 20,000 known bee species) of all bee species.
+📚 Sources:
+  • Why do honeybees die when they sting? | PBS News — https://www.pbs.org/newshour/science/honeybee-sting-kill-bee
+  • Why does evolution cause bees to die when stinging? : r/evolution — https://www.reddit.com/r/evolution/comments/1bddk9f/why_does_evolution_cause_bees_to_die_when_stinging/
+  • 2024 | Most bees don't die after stinging - and other surprising bee ... — https://www.uow.edu.au/media/2024/most-bees-dont-die-after-stinging---and-other-surprising-beefacts.php
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:04:59
+🔎 Claim: lightning can never hit the same place twice
+🗣️ Agent would say (full): That’s not true—According to noaa.gov, They uniformly state that this idea is a myth and that lightning can and often does strike the same place multiple times, especially for tall or isolated objects. The idea that lightning never strikes the same place twice is actually a myth.
+📚 Sources:
+  • [request] if lightning really doesn't strike the same place twice ... — https://www.reddit.com/r/theydidthemath/comments/11255kj/request_if_lightning_really_doesnt_strike_the/
+  • 5 striking facts versus myths about lightning you should know ... — https://www.noaa.gov/stories/5-striking-facts-versus-myths-about-lightning-you-should-know
+  • Can Lightning Strike the Same Place Twice? | Britannica — https://www.britannica.com/story/can-lightning-strike-the-same-place-twice
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:05:54
+🔎 Claim: dusk is the same as dawn
+🗣️ Agent would say (full): That’s not true—According to timeanddate.com, We all know that sunrise or dawn is when the sun comes up, and sunset or dusk is when it goes down. The trusted evidence strongly goes against the claim that dusk is the same as dawn.
+📚 Sources:
+  • ELI5: Can someone explain the terms twilight, dawn & dusk in ... — https://www.reddit.com/r/explainlikeimfive/comments/1enqmrh/eli5_can_someone_explain_the_terms_twilight_dawn/
+  • The Different Types of Twilight, Dawn and Dusk — https://www.timeanddate.com/astronomy/different-types-twilight.html
+  • Dawn, dusk and twilight | Meanings and Timings — https://www.rmg.co.uk/stories/time/when-dawn-dusk-twilight
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:06:29
+🔎 Claim: bats are blind
+🗣️ Agent would say (full): That’s not true—According to usgs.gov, Geological Survey, Bat Conservation International, Britannica) explains that bats are not blind. No, bats are not blind.
+📚 Sources:
+  • Are bats blind? | U.S. Geological Survey — https://www.usgs.gov/faqs/are-bats-blind
+  • Blind as a Bat? No Such Thing - Bat Conservation International — https://www.batcon.org/blind-as-a-bat-no-such-thing/
+  • are bats actually blind or is it just a myth and do they have really ... — https://www.reddit.com/r/askscience/comments/vv6utt/are_bats_actually_blind_or_is_it_just_a_myth_and/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:09:17
+🔎 Claim: elephants have two noses
+🗣️ Agent would say (full): That’s not true—According to nih.gov, This mixes up what the helpers found. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Elephants have a nose for quantity | PNAS — https://www.pnas.org/doi/10.1073/pnas.1818284116
+  • Elephants have a nose for quantity — https://pubmed.ncbi.nlm.nih.gov/31160445/
+  • Elephants have a long trunk/trunks. | WordReference Forums — https://forum.wordreference.com/threads/elephants-have-a-long-trunk-trunks.2040841/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:09:34
+🔎 Claim: bats are blind
+🗣️ Agent would say (full): That’s not true—According to usgs.gov, TIL that bats are not actually blind, but only use echolocation at night because it's too dark to see. No, bats are not blind.
+📚 Sources:
+  • Are bats blind? | U.S. Geological Survey — https://www.usgs.gov/faqs/are-bats-blind
+  • Blind as a Bat? No Such Thing - Bat Conservation International — https://www.batcon.org/blind-as-a-bat-no-such-thing/
+  • are bats actually blind or is it just a myth and do they have really ... — https://www.reddit.com/r/askscience/comments/vv6utt/are_bats_actually_blind_or_is_it_just_a_myth_and/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:12:23
+🔎 Claim: elephants have two noses
+🗣️ Agent would say (full): That’s not true—According to nih.gov, The evidence strongly goes against the claim that elephants have two noses. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Elephants have a nose for quantity | PNAS — https://www.pnas.org/doi/10.1073/pnas.1818284116
+  • Elephants have a nose for quantity — https://pubmed.ncbi.nlm.nih.gov/31160445/
+  • Elephants have a long trunk/trunks. | WordReference Forums — https://forum.wordreference.com/threads/elephants-have-a-long-trunk-trunks.2040841/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:12:38
+🔎 Claim: bats are blind
+🗣️ Agent would say (full): That’s not true—According to usgs.gov, No, bats are not blind. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Are bats blind? | U.S. Geological Survey — https://www.usgs.gov/faqs/are-bats-blind
+  • Blind as a Bat? No Such Thing - Bat Conservation International — https://www.batcon.org/blind-as-a-bat-no-such-thing/
+  • are bats actually blind or is it just a myth and do they have really ... — https://www.reddit.com/r/askscience/comments/vv6utt/are_bats_actually_blind_or_is_it_just_a_myth_and/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:16:03
+🔎 Claim: elephants have two noses
+🗣️ Agent would say (full): That’s not true—According to nih.gov, This mixes up what the helpers found. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Elephants have a nose for quantity | PNAS — https://www.pnas.org/doi/10.1073/pnas.1818284116
+  • Elephants have a nose for quantity — https://pubmed.ncbi.nlm.nih.gov/31160445/
+  • Elephants have a long trunk/trunks. | WordReference Forums — https://forum.wordreference.com/threads/elephants-have-a-long-trunk-trunks.2040841/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:17:18
+🔎 Claim: elephants have two noses
+🗣️ Agent would say (full): That’s not true—According to nih.gov, This mixes up what the helpers found. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Elephants have a nose for quantity | PNAS — https://www.pnas.org/doi/10.1073/pnas.1818284116
+  • Elephants have a nose for quantity — https://pubmed.ncbi.nlm.nih.gov/31160445/
+  • Elephants have a long trunk/trunks. | WordReference Forums — https://forum.wordreference.com/threads/elephants-have-a-long-trunk-trunks.2040841/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:19:46
+🔎 Claim: elephants have two noses
+🗣️ Agent would say (full): That’s not true—According to nih.gov, This mixes up what the helpers found. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Elephants have a nose for quantity | PNAS — https://www.pnas.org/doi/10.1073/pnas.1818284116
+  • Elephants have a nose for quantity — https://pubmed.ncbi.nlm.nih.gov/31160445/
+  • Elephants have a long trunk/trunks. | WordReference Forums — https://forum.wordreference.com/threads/elephants-have-a-long-trunk-trunks.2040841/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:23:10
+🔎 Claim: elephants have two noses
+🗣️ Agent would say (full): That’s not true—According to nih.gov, This mixes up what the helpers found. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Elephants have a nose for quantity | PNAS — https://www.pnas.org/doi/10.1073/pnas.1818284116
+  • Elephants have a nose for quantity — https://pubmed.ncbi.nlm.nih.gov/31160445/
+  • Elephants have a long trunk/trunks. | WordReference Forums — https://forum.wordreference.com/threads/elephants-have-a-long-trunk-trunks.2040841/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:26:03
+🔎 Claim: elephants have two noses
+🗣️ Agent would say (full): That’s not true—According to nih.gov, This mixes up what the helpers found. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Elephants have a nose for quantity | PNAS — https://www.pnas.org/doi/10.1073/pnas.1818284116
+  • Elephants have a nose for quantity — https://pubmed.ncbi.nlm.nih.gov/31160445/
+  • Elephants have a long trunk/trunks. | WordReference Forums — https://forum.wordreference.com/threads/elephants-have-a-long-trunk-trunks.2040841/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:28:38
+🔎 Claim: elephants have two noses
+🗣️ Agent would say (full): That’s not true—According to nih.gov, Does not show that, which might lead people to think an elephant has two noses. We demonstrate that elephants are able to discriminate between two distinct quantities using their olfactory sense alone.
+📚 Sources:
+  • Elephants have a nose for quantity | PNAS — https://www.pnas.org/doi/10.1073/pnas.1818284116
+  • Elephants have a nose for quantity — https://pubmed.ncbi.nlm.nih.gov/31160445/
+  • Elephants have a long trunk/trunks. | WordReference Forums — https://forum.wordreference.com/threads/elephants-have-a-long-trunk-trunks.2040841/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:29:06
+🔎 Claim: dusk is the same as dawn
+🗣️ Agent would say (full): That’s not true—According to co.uk, We all know that sunrise or dawn is when the sun comes up, and sunset or dusk is when it goes down. The evidence mostly goes against the claim that dusk is the same as dawn.
+📚 Sources:
+  • ELI5: Can someone explain the terms twilight, dawn & dusk in ... — https://www.reddit.com/r/explainlikeimfive/comments/1enqmrh/eli5_can_someone_explain_the_terms_twilight_dawn/
+  • The Different Types of Twilight, Dawn and Dusk — https://www.timeanddate.com/astronomy/different-types-twilight.html
+  • Dawn, dusk and twilight | Meanings and Timings — https://www.rmg.co.uk/stories/time/when-dawn-dusk-twilight
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:29:55
+🔎 Claim: bees die when they sting you
+🗣️ Agent would say (full): That’s not true—According to pbs.org, The bee's stinger is structured in such a way that once it punctures human skin, the bee can't yank it out. The evidence indicates that *only honey bees* die after stinging, particularly when stinging mammals with thick skin.
+📚 Sources:
+  • Why do honeybees die when they sting? | PBS News — https://www.pbs.org/newshour/science/honeybee-sting-kill-bee
+  • Why does evolution cause bees to die when stinging? : r/evolution — https://www.reddit.com/r/evolution/comments/1bddk9f/why_does_evolution_cause_bees_to_die_when_stinging/
+  • 2024 | Most bees don't die after stinging - and other surprising bee ... — https://www.uow.edu.au/media/2024/most-bees-dont-die-after-stinging---and-other-surprising-beefacts.php
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:30:38
+🔎 Claim: bats are blind
+🗣️ Agent would say (full): That’s not true—According to usgs.gov, No, bats are not blind. Research shows directly goes against the claim that bats are blind.
+📚 Sources:
+  • Are bats blind? | U.S. Geological Survey — https://www.usgs.gov/faqs/are-bats-blind
+  • Blind as a Bat? No Such Thing - Bat Conservation International — https://www.batcon.org/blind-as-a-bat-no-such-thing/
+  • are bats actually blind or is it just a myth and do they have really ... — https://www.reddit.com/r/askscience/comments/vv6utt/are_bats_actually_blind_or_is_it_just_a_myth_and/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:31:08
+🔎 Claim: all snakes are poisonous
+🗣️ Agent would say (full): That’s not true—According to britannica.com, But this phrase is not technically correct—strictly speaking, most dangerous snakes are venomous. Two through six are all perfectly harmless snakes that illustrate how nonvenomous snakes often have a triangular appearance.
+📚 Sources:
+  • What's the Difference Between Venomous and Poisonous ... — https://www.britannica.com/story/whats-the-difference-between-venomous-and-poisonous
+  • How NOT to Identify a Venomous Snake | by Micha Petty | The ... — https://medium.com/natural-world/how-not-to-id-a-venomous-snake-8c7de2d0ca2e
+  • Mohammed on X: ""Not all snakes are poisonous but we are afraid ... — https://x.com/IKON1436/status/1827640215843873186?lang=en
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:31:40
+🔎 Claim: turtles can come out of their shells
+🗣️ Agent would say (full): That’s not true—According to facebook.com, Research shows that turtles cannot come out of their shells. A turtle cannot survive without its shell, in the same way that other animal species cannot live without their skeletal system.
+📚 Sources:
+  • This is why turtle cannot come out from its shell : r/interestingasfuck — https://www.reddit.com/r/interestingasfuck/comments/cqcrss/this_is_why_turtle_cannot_come_out_from_its_shell/
+  • This why turtles can not come out of their shells — https://www.facebook.com/groups/290467178273078/posts/1138401453479642/
+  • Turtles are not inside their shells : r/BeAmazed — https://www.reddit.com/r/BeAmazed/comments/1aulyl6/turtles_are_not_inside_their_shells/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:32:36
+🔎 Claim: the earth moves around the sun
+🗣️ Agent would say (full): That’s true—According to nasa.gov, The sun goes around around the barycenter of the solar system. This is what causes.
+📚 Sources:
+  • Chapter 2: Reference Systems - NASA Science — https://science.nasa.gov/learn/basics-of-space-flight/chapter2-1/
+  • How do the Sun, Earth, and Moon move? – KidsEclipse — https://kidseclipse.com/sun-earth-moon-move/
+  • Is it wrong to say that the sun turns around the earth ? : r/AskPhysics — https://www.reddit.com/r/AskPhysics/comments/1hfqp71/is_it_wrong_to_say_that_the_sun_turns_around_the/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:33:10
+🔎 Claim: there is no gravity on the moon
+🗣️ Agent would say (full): That’s not true—According to uu.edu, So visually we can infer that the Moon has no atmosphere because there are never. The ISS is only like.
+📚 Sources:
+  • If the Moon keeps its orbit bc of Earth's gravity, then how come the ... — https://www.reddit.com/r/askscience/comments/wksvef/if_the_moon_keeps_its_orbit_bc_of_earths_gravity/
+  • Is there air on our Moon? Does the Moon have gravity? | Science ... — https://www.uu.edu/dept/physics/scienceguys/2002Jan.cfm
+  • How did we know the gravity on the moon's surface before we ... — https://www.reddit.com/r/askscience/comments/58wvdb/how_did_we_know_the_gravity_on_the_moons_surface/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:36:53
+🔎 Claim: there is no gravity on the moon
+🗣️ Agent would say (full): That’s not true—According to uu.edu, So visually we can infer that the Moon has no atmosphere because there are never. This is a common mistake people sometimes believe.
+📚 Sources:
+  • If the Moon keeps its orbit bc of Earth's gravity, then how come the ... — https://www.reddit.com/r/askscience/comments/wksvef/if_the_moon_keeps_its_orbit_bc_of_earths_gravity/
+  • Is there air on our Moon? Does the Moon have gravity? | Science ... — https://www.uu.edu/dept/physics/scienceguys/2002Jan.cfm
+  • How did we know the gravity on the moon's surface before we ... — https://www.reddit.com/r/askscience/comments/58wvdb/how_did_we_know_the_gravity_on_the_moons_surface/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:40:58
+🔎 Claim: there is no gravity on the moon
+🗣️ Agent would say (full): That’s not true—According to uu.edu, The Moon is not zero-gravity, its surface gravity is one-sixth of Earth's gravity. This is a common mistake people sometimes believe.
+📚 Sources:
+  • If the Moon keeps its orbit bc of Earth's gravity, then how come the ... — https://www.reddit.com/r/askscience/comments/wksvef/if_the_moon_keeps_its_orbit_bc_of_earths_gravity/
+  • Is there air on our Moon? Does the Moon have gravity? | Science ... — https://www.uu.edu/dept/physics/scienceguys/2002Jan.cfm
+  • How did we know the gravity on the moon's surface before we ... — https://www.reddit.com/r/askscience/comments/58wvdb/how_did_we_know_the_gravity_on_the_moons_surface/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:41:33
+🔎 Claim: the sahara is the largest desert in the world
+🗣️ Agent would say (full): That’s not true—According to wtamu.edu, Research shows notes consistently state that the Sahara is the largest *hot* desert in the world, but it is not the largest desert overall. The Sahara is not the largest desert in the world.
+📚 Sources:
+  • Sahara - Wikipedia — https://en.wikipedia.org/wiki/Sahara
+  • Facts About the Sahara Desert — https://www.globaladventurechallenges.com/journal/facts-about-sahara-desert
+  • What makes the Sahara the largest desert in the world? | Science ... — https://www.wtamu.edu/~cbaird/sq/2012/12/13/what-makes-the-sahara-the-largest-desert-in-the-world/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:43:23
+🔎 Claim: the sun moves around the earth
+🗣️ Agent would say (full): That’s not true—According to nasa.gov, The sun goes around the center of the solar system of the solar system. The width of the sun's go around is only a few thousand kilometers, generally.
+📚 Sources:
+  • Is it wrong to say that the sun turns around the earth ? : r/AskPhysics — https://www.reddit.com/r/AskPhysics/comments/1hfqp71/is_it_wrong_to_say_that_the_sun_turns_around_the/
+  • How do the Sun, Earth, and Moon move? – KidsEclipse — https://kidseclipse.com/sun-earth-moon-move/
+  • Chapter 2: Reference Systems - NASA Science — https://science.nasa.gov/learn/basics-of-space-flight/chapter2-1/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:46:17
+🔎 Claim: the sun moves around the earth
+🗣️ Agent would say (full): I’m not completely sure—According to what I found, I couldnt reach the fact-check server just now to double-check this claim. We need a bit more clear information to be sure.
+⚠️ Note: The fact-check server took too long to reply. (details: timeout)
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:46:43
+🔎 Claim: the sun moves around the earth
+🗣️ Agent would say (full): That’s not true—According to nasa.gov, The sun goes around the center of the solar system of the solar system. The width of the sun's go around is only a few thousand kilometers, generally.
+📚 Sources:
+  • Is it wrong to say that the sun turns around the earth ? : r/AskPhysics — https://www.reddit.com/r/AskPhysics/comments/1hfqp71/is_it_wrong_to_say_that_the_sun_turns_around_the/
+  • How do the Sun, Earth, and Moon move? – KidsEclipse — https://kidseclipse.com/sun-earth-moon-move/
+  • Chapter 2: Reference Systems - NASA Science — https://science.nasa.gov/learn/basics-of-space-flight/chapter2-1/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:47:29
+🔎 Claim: dogs can only see in black and white
+🗣️ Agent would say (full): That’s not true—According to pedigree.com, The claim that dogs can only see in black and white is directly went against by. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Do dogs see only in black and white? — https://www.pedigree.com/dog-care-articles/our-help-hub/training-resources/do-dogs-see-only-in-black-and-white
+  • Can animals see colour? - AdelaideVet — https://adelaidevet.com.au/pet-library/can-animals-see-colour/
+  • Do dogs really see in just black and white? — https://theconversation.com/do-dogs-really-see-in-just-black-and-white-131438
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:47:51
+🔎 Claim: goldfish never sleep
+🗣️ Agent would say (full): That’s not true—According to reddit.com, Could he be sleeping or is he sick. Of course I am not home all the.
+📚 Sources:
+  • How and when do goldfish sleep? : r/Goldfish — https://www.reddit.com/r/Goldfish/comments/pwa275/how_and_when_do_goldfish_sleep/
+  • I have never seen her sleep before! Is this normal? 10 mins later and ... — https://www.reddit.com/r/Goldfish/comments/1ghrm1b/i_have_never_seen_her_sleep_before_is_this_normal/
+  • How often do goldfish sleep? : r/Goldfish — https://www.reddit.com/r/Goldfish/comments/ko2mh0/how_often_do_goldfish_sleep/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:50:45
+🔎 Claim: dogs can only see in black and white
+🗣️ Agent would say (full): That’s not true—According to pedigree.com, This mixes up what the helpers found. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Do dogs see only in black and white? — https://www.pedigree.com/dog-care-articles/our-help-hub/training-resources/do-dogs-see-only-in-black-and-white
+  • Can animals see colour? - AdelaideVet — https://adelaidevet.com.au/pet-library/can-animals-see-colour/
+  • Do dogs really see in just black and white? — https://theconversation.com/do-dogs-really-see-in-just-black-and-white-131438
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:52:58
+🔎 Claim: dogs can see only in black and white
+🗣️ Agent would say (full): That’s not true—According to pedigree.com, Veterinarians used to believe that dogs saw only in black and white, but recent studies suggest that they actually do have some colour vision—but it's not as. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Do dogs see only in black and white? — https://www.pedigree.com/dog-care-articles/our-help-hub/training-resources/do-dogs-see-only-in-black-and-white
+  • Can animals see colour? - AdelaideVet — https://adelaidevet.com.au/pet-library/can-animals-see-colour/
+  • Do dogs really see in just black and white? — https://theconversation.com/do-dogs-really-see-in-just-black-and-white-131438
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:53:51
+🔎 Claim: the sahara is the largest desert on earth
+🗣️ Agent would say (full): That’s not true—According to nationalgeographic.org, The largest desert on Earth is Antarctica, which covers 14.2 million square kilometers (5.5 million square miles). It is also the coldest desert.
+📚 Sources:
+  • Sahara: The Largest Desert On Earth | Journeys To The Ends Of The ... — https://www.youtube.com/watch?v=K946mptgzTU
+  • Not all Deserts are Sandy — https://education.nationalgeographic.org/resource/deserts/
+  • Sahara - Wikipedia — https://en.wikipedia.org/wiki/Sahara
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:54:32
+🔎 Claim: elephants cant jump
+🗣️ Agent would say (full): That’s true—According to science.org, Elephants can't jump, according to a video by Smithsonian. And there's one simple reason: They don't have to.
+📚 Sources:
+  • Elephants can't jump—and here's why | Science | AAAS — https://www.science.org/content/article/elephants-can-t-jump-and-here-s-why
+  • TIL Elephants can't jump. Unlike most mammals, the bones in ... — https://www.reddit.com/r/todayilearned/comments/1402b9n/til_elephants_cant_jump_unlike_most_mammals_the/
+  • Elephants Can't Jump - Brand Strategy, Consumer Insight & Innovation — https://elephantscantjump.com/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:55:20
+🔎 Claim: africa is the largest continent
+🗣️ Agent would say (full): That’s not true—According to wikipedia.org, Africa is not the largest continent, neither in terms of area nor in terms of population. Africa is the world's second-largest and second-most populous continent after Asia.
+📚 Sources:
+  • Why is Africa, as the largest continent, the smallest on the world map ... — https://www.quora.com/Why-is-Africa-as-the-largest-continent-the-smallest-on-the-world-map
+  • Africa - Wikipedia — https://en.wikipedia.org/wiki/Africa
+  • Is it true that Africa is the largest continent in terms of landmass but ... — https://www.quora.com/Is-it-true-that-Africa-is-the-largest-continent-in-terms-of-landmass-but-not-population-If-so-why-is-this-the-case
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:56:31
+🔎 Claim: elephants cant jump
+🗣️ Agent would say (full): That’s true—According to science.org, And there's one simple reason: They don't have to. That matches what teachers and scientists explain.
+📚 Sources:
+  • Elephants can't jump—and here's why | Science | AAAS — https://www.science.org/content/article/elephants-can-t-jump-and-here-s-why
+  • TIL Elephants can't jump. Unlike most mammals, the bones in ... — https://www.reddit.com/r/todayilearned/comments/1402b9n/til_elephants_cant_jump_unlike_most_mammals_the/
+  • Elephants Can't Jump - Brand Strategy, Consumer Insight & Innovation — https://elephantscantjump.com/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:56:54
+🔎 Claim: africa is the largest continent
+🗣️ Agent would say (full): That’s not true—According to wikipedia.org, Africa is not the largest continent, neither in terms of area nor in terms of population. Several notes explicitly identify Asia as the largest continent by landmass, and some explain that Africa is the second-largest after Asia.
+📚 Sources:
+  • Why is Africa, as the largest continent, the smallest on the world map ... — https://www.quora.com/Why-is-Africa-as-the-largest-continent-the-smallest-on-the-world-map
+  • Africa - Wikipedia — https://en.wikipedia.org/wiki/Africa
+  • Is it true that Africa is the largest continent in terms of landmass but ... — https://www.quora.com/Is-it-true-that-Africa-is-the-largest-continent-in-terms-of-landmass-but-not-population-If-so-why-is-this-the-case
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:59:14
+🔎 Claim: elephants cant jump
+🗣️ Agent would say (full): That’s true—According to science.org, And there's one simple reason: They don't have to. That matches what teachers and scientists explain.
+📚 Sources:
+  • Elephants can't jump—and here's why | Science | AAAS — https://www.science.org/content/article/elephants-can-t-jump-and-here-s-why
+  • TIL Elephants can't jump. Unlike most mammals, the bones in ... — https://www.reddit.com/r/todayilearned/comments/1402b9n/til_elephants_cant_jump_unlike_most_mammals_the/
+  • Elephants Can't Jump - Brand Strategy, Consumer Insight & Innovation — https://elephantscantjump.com/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 14:59:32
+🔎 Claim: africa is the largest continent
+🗣️ Agent would say (full): That’s not true—According to wikipedia.org, Africa is not the largest continent, neither in terms of area nor in terms of population. Africa is the world's second-largest and second-most populous continent after Asia.
+📚 Sources:
+  • Why is Africa, as the largest continent, the smallest on the world map ... — https://www.quora.com/Why-is-Africa-as-the-largest-continent-the-smallest-on-the-world-map
+  • Africa - Wikipedia — https://en.wikipedia.org/wiki/Africa
+  • Is it true that Africa is the largest continent in terms of landmass but ... — https://www.quora.com/Is-it-true-that-Africa-is-the-largest-continent-in-terms-of-landmass-but-not-population-If-so-why-is-this-the-case
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:00:25
+🔎 Claim: goldfish never sleep
+🗣️ Agent would say (full): I’m not completely sure—According to what I found, Google Search error: <HttpError 429 when requesting https://customsearch.googleapis.com/customsearch/v1?q=goldfish+never+sleep&cx=3212cd79f0a224115&num=5&key=AIzaSyB0oApALDglJLIqnlfC_PjZed4NB7_ePf4&alt=json returned Quota exceeded for quota metric Queries and limit Queries per day of service customsearch.googleapis.com for consumer project_number:942633403037. We need a bit more clear information to be sure.
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:00:42
+🔎 Claim: goldfish never sleep
+🗣️ Agent would say (full): I’m not completely sure—According to what I found, Google Search error: <HttpError 429 when requesting https://customsearch.googleapis.com/customsearch/v1?q=goldfish+never+sleep&cx=3212cd79f0a224115&num=5&key=AIzaSyB0oApALDglJLIqnlfC_PjZed4NB7_ePf4&alt=json returned Quota exceeded for quota metric Queries and limit Queries per day of service customsearch.googleapis.com for consumer project_number:942633403037. We need a bit more clear information to be sure.
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:06:17
+🔎 Claim: goldfish never sleep
+🗣️ Agent would say (full): I’m not completely sure—According to what I found, Google Search error: <HttpError 429 when requesting https://customsearch.googleapis.com/customsearch/v1?q=goldfish+never+sleep&cx=3212cd79f0a224115&num=5&key=AIzaSyB0oApALDglJLIqnlfC_PjZed4NB7_ePf4&alt=json returned Quota exceeded for quota metric Queries and limit Queries per day of service customsearch.googleapis.com for consumer project_number:942633403037. We need a bit more clear information to be sure.
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:07:11
+🔎 Claim: goldfish never sleep
+🗣️ Agent would say (full): That’s not true—According to reddit.com, Could he be sleeping or is he sick. Of course I am not home all the.
+📚 Sources:
+  • How and when do goldfish sleep? : r/Goldfish — https://www.reddit.com/r/Goldfish/comments/pwa275/how_and_when_do_goldfish_sleep/
+  • I have never seen her sleep before! Is this normal? 10 mins later and ... — https://www.reddit.com/r/Goldfish/comments/1ghrm1b/i_have_never_seen_her_sleep_before_is_this_normal/
+  • How often do goldfish sleep? : r/Goldfish — https://www.reddit.com/r/Goldfish/comments/ko2mh0/how_often_do_goldfish_sleep/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:07:29
+🔎 Claim: spiders have eight legs
+🗣️ Agent would say (full): That’s true—According to burkemuseum.org, This seems like an interesting idea, but other arachnids are eight-legged and mostly don't produce webs at all (e.g. That matches what teachers and scientists explain.
+📚 Sources:
+  • Myth: "Eight legs" always means "spider" | Burke Museum — https://www.burkemuseum.org/collections-and-research/biology/arachnology-and-entomology/spider-myths/myth-eight-legs-always-means-spider
+  • Why do spiders have eight legs? : r/askscience — https://www.reddit.com/r/askscience/comments/1xzcsk/why_do_spiders_have_eight_legs/
+  • Why do spiders have eight legs and insects only six? — alBatt — https://www.albatt.com/blogs/2021/1/3/hca0xtv8glwv6g1jnok1ta9tedkta7
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:13:49
+🔎 Claim: spiders have eight legs
+🗣️ Agent would say (full): That’s true—According to burkemuseum.org, Scorpions, harvestmen, ticks, and in fact all arachnids—not just spiders—have four pairs of legs (see illustrations). Insects have three pairs.
+📚 Sources:
+  • Myth: "Eight legs" always means "spider" | Burke Museum — https://www.burkemuseum.org/collections-and-research/biology/arachnology-and-entomology/spider-myths/myth-eight-legs-always-means-spider
+  • Why do spiders have eight legs? : r/askscience — https://www.reddit.com/r/askscience/comments/1xzcsk/why_do_spiders_have_eight_legs/
+  • Why do spiders have eight legs and insects only six? — alBatt — https://www.albatt.com/blogs/2021/1/3/hca0xtv8glwv6g1jnok1ta9tedkta7
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:14:31
+🔎 Claim: carrot can help you see in the dark
+🗣️ Agent would say (full): I’m not completely sure—According to what I found, I couldnt reach the fact-check server just now to double-check this claim. We need a bit more clear information to be sure.
+⚠️ Note: The fact-check server took too long to reply. (details: timeout)
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:14:43
+🔎 Claim: apples float in water
+🗣️ Agent would say (full): That’s true—According to tastecooking.com, It is also one of the only fruits that float in water. Just like ice, apples are less dense than liquid water.
+📚 Sources:
+  • Sink or Float: Apple Science for kids of all Ages — Learning Here ... — https://www.learningherenthere.com/all-ages/sink-or-float-apple-science-for-kids-of-all-ages
+  • How to explain to my daughter why apples float in water but grapes ... — https://www.quora.com/How-do-I-explain-to-my-daughter-why-apples-float-in-water-but-grapes-sink-or-why-squash-float-but-pears-sink
+  • Why Do Apples Float? | TASTE — https://tastecooking.com/why-do-apples-float/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:15:14
+🔎 Claim: chocolate comes from beans
+🗣️ Agent would say (full): That’s true—According to wikipedia.org, The Theobroma cacao tree is a fruit tree, whose name means “food of the gods”. .
+📚 Sources:
+  • Cocoa bean - Wikipedia — https://en.wikipedia.org/wiki/Cocoa_bean
+  • Where Do Cocoa Beans Grow? | Lake Champlain Chocolates — https://www.lakechamplainchocolates.com/where-do-cocoa-beans-grow/
+  • `How to Make Chocolate at Home - Complete Bean-to-Bar Guide ... — https://chocolatealchemy.com/how-to-make-chocolate-the-complete-text-guide
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:19:02
+🔎 Claim: chocolate is made from beans
+🗣️ Agent would say (full): That’s true—According to youtube.com, Titles like How To Make Chocolate From Cocoa Beans and How to Make Chocolate from Cocoa Beans explain beans as the raw material. MrBeast is punching the air at the fact that Nick chose to collaborate with Hershey's and not Feastables.
+📚 Sources:
+  • I Made Chocolate From Scratch - YouTube — https://www.youtube.com/watch?v=hymVP5KABE8
+  • How To Make Chocolate From Cocoa Beans (Bean to Bar Chocolate) — https://www.alphafoodie.com/how-to-make-chocolate-bean-to-bar/
+  • I Made The World's Largest Chocolate Bar - YouTube — https://www.youtube.com/watch?v=VLMWq5nfvlk
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:20:23
+🔎 Claim: chocolate is made from bans
+🗣️ Agent would say (full): That’s not true—According to jacksonville.com, The evidence explains that chocolate is made from ingredients such as almond paste and cocoa butter (. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Does banning foods (chocolate/sweets) for kids work or just ... — https://www.reddit.com/r/ScienceBasedParenting/comments/ng3g19/does_banning_foods_chocolatesweets_for_kids_work/
+  • Fact Check: Did Hershey's really ban Cadbury bars from the U.S.? — https://www.jacksonville.com/story/news/reason/2015/02/06/fact-check-did-hersheys-really-ban-cadbury-bars-us/987127007/
+  • High Levels of Banned PFAS Detected in Reese's and Hershey's ... — https://www.reddit.com/r/ScienceBasedParenting/comments/1gac5jg/high_levels_of_banned_pfas_detected_in_reeses_and/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:20:44
+🔎 Claim: chocolate is made from beans
+🗣️ Agent would say (full): That’s true—According to alphafoodie.com, Apr 23, 2021. Following a 7-step process of harvesting, fermenting (and drying), roasting, grinding, blending, tempering, and molding – you can make delicious homemade.
+📚 Sources:
+  • I Made Chocolate From Scratch - YouTube — https://www.youtube.com/watch?v=hymVP5KABE8
+  • How To Make Chocolate From Cocoa Beans (Bean to Bar Chocolate) — https://www.alphafoodie.com/how-to-make-chocolate-bean-to-bar/
+  • I Made The World's Largest Chocolate Bar - YouTube — https://www.youtube.com/watch?v=VLMWq5nfvlk
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:22:19
+🔎 Claim: chocolate is made from beans
+🗣️ Agent would say (full): That’s true—According to alphafoodie.com, This matches what trusted helpers have found. .
+📚 Sources:
+  • I Made Chocolate From Scratch - YouTube — https://www.youtube.com/watch?v=hymVP5KABE8
+  • How To Make Chocolate From Cocoa Beans (Bean to Bar Chocolate) — https://www.alphafoodie.com/how-to-make-chocolate-bean-to-bar/
+  • I Made The World's Largest Chocolate Bar - YouTube — https://www.youtube.com/watch?v=VLMWq5nfvlk
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:25:01
+🔎 Claim: chocolate is made from beans
+🗣️ Agent would say (full): That’s true—According to alphafoodie.com, . .
+📚 Sources:
+  • I Made Chocolate From Scratch - YouTube — https://www.youtube.com/watch?v=hymVP5KABE8
+  • How To Make Chocolate From Cocoa Beans (Bean to Bar Chocolate) — https://www.alphafoodie.com/how-to-make-chocolate-bean-to-bar/
+  • I Made The World's Largest Chocolate Bar - YouTube — https://www.youtube.com/watch?v=VLMWq5nfvlk
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:25:23
+🔎 Claim: carrots can help you see in the dark
+🗣️ Agent would say (full): That’s true—According to health.mil, Have you ever heard that carrots are good for your eyes, or that they can help you see in the dark. While carrots do not provide pure night vision or superhuman night vision that allows sight in complete darkness, the evidence consistently indicates they can improve night vision.
+📚 Sources:
+  • Do carrots help you see in the dark? - BBC Science Focus Magazine — https://www.sciencefocus.com/the-human-body/do-carrots-help-you-see-in-the-dark
+  • It's True – Carrots (and Other Vegetables) Can Help You See in the ... — https://www.health.mil/News/Articles/2022/03/04/Its-True-Carrots-and-Other-Vegetables-Can-Help-You-See-in-the-Dark
+  • Myth or Truth: Can carrots help us see in the dark? | Lenstore.co.uk — https://www.lenstore.co.uk/eyecare/myth-or-truth
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:26:43
+🔎 Claim: whales are fish
+🗣️ Agent would say (full): That’s not true—According to mit.edu, Distinctions between whales and fish are more influenced by cultural and linguistic changes than by scientific discoveries. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Whales are fish : r/sciencememes — https://www.reddit.com/r/sciencememes/comments/16so199/whales_are_fish/
+  • Are Whales Fish? | The MIT Press Reader — https://thereader.mitpress.mit.edu/are-whales-fish/
+  • Question for the "whales are technically fish" crowd : r/Paleontology — https://www.reddit.com/r/Paleontology/comments/vptrxu/question_for_the_whales_are_technically_fish_crowd/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:27:24
+🔎 Claim: bats are blind
+🗣️ Agent would say (full): That’s not true—According to usgs.gov, No, bats are not blind. Bats have small eyes with very sensitive vision, which helps them see in conditions we might consider pitch black.
+📚 Sources:
+  • Are bats blind? | U.S. Geological Survey — https://www.usgs.gov/faqs/are-bats-blind
+  • Blind as a Bat? No Such Thing - Bat Conservation International — https://www.batcon.org/blind-as-a-bat-no-such-thing/
+  • are bats actually blind or is it just a myth and do they have really ... — https://www.reddit.com/r/askscience/comments/vv6utt/are_bats_actually_blind_or_is_it_just_a_myth_and/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:27:52
+🔎 Claim: lightning never strikes the same place twice
+🗣️ Agent would say (full): That’s not true—According to nasa.gov, “Lightning never strikes the same place twice” is a common phrase you've probably heard before, often used to reassure someone that whatever bad thing has. The evidence directly goes against the claim lightning never strikes the same place twice.
+📚 Sources:
+  • 5 striking facts versus myths about lightning you should know ... — https://www.noaa.gov/stories/5-striking-facts-versus-myths-about-lightning-you-should-know
+  • Can Lightning Strike the Same Place Twice? | Britannica — https://www.britannica.com/story/can-lightning-strike-the-same-place-twice
+  • Lightning Often Strikes Twice | NASA Spinoff — https://spinoff.nasa.gov/Spinoff2005/ps_3.html
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:28:25
+🔎 Claim: humans have more than five senses
+🗣️ Agent would say (full): That’s true—According to wikipedia.org, Yet we have always known that we are capable of sensing much more than. .
+📚 Sources:
+  • Humans have more than 5 senses | World Economic Forum — https://www.weforum.org/stories/2017/01/humans-have-more-than-5-senses/
+  • TIL humans dont actually have five senses, we have other senses ... — https://www.reddit.com/r/todayilearned/comments/b4b94f/til_humans_dont_actually_have_five_senses_we_have/
+  • Sense - Wikipedia — https://en.wikipedia.org/wiki/Sense
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:28:56
+🔎 Claim: penguins live in the artic
+🗣️ Agent would say (full): That’s not true—According to nationalgeographic.com, Penguins live in Antarctica, not the Arctic. One of the most common mistakes is that penguins live in the Arctic.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Does a colony of penguins stand s chance in the north pole? What ... — https://www.reddit.com/r/askscience/comments/1340op/does_a_colony_of_penguins_stand_s_chance_in_the/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:33:02
+🔎 Claim: whales are fish
+🗣️ Agent would say (full): That’s not true—According to mit.edu, Whales are fish because fish is a cultural term, not a biological one. The trusted evidence strongly goes against the claim.
+📚 Sources:
+  • Whales are fish : r/sciencememes — https://www.reddit.com/r/sciencememes/comments/16so199/whales_are_fish/
+  • Are Whales Fish? | The MIT Press Reader — https://thereader.mitpress.mit.edu/are-whales-fish/
+  • Question for the "whales are technically fish" crowd : r/Paleontology — https://www.reddit.com/r/Paleontology/comments/vptrxu/question_for_the_whales_are_technically_fish_crowd/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:33:22
+🔎 Claim: bats are blind
+🗣️ Agent would say (full): That’s not true—According to usgs.gov, No, bats are not blind. Bats have small eyes with very sensitive vision, which helps them see in conditions we might consider pitch black.
+📚 Sources:
+  • Are bats blind? | U.S. Geological Survey — https://www.usgs.gov/faqs/are-bats-blind
+  • Blind as a Bat? No Such Thing - Bat Conservation International — https://www.batcon.org/blind-as-a-bat-no-such-thing/
+  • are bats actually blind or is it just a myth and do they have really ... — https://www.reddit.com/r/askscience/comments/vv6utt/are_bats_actually_blind_or_is_it_just_a_myth_and/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:33:40
+🔎 Claim: humans have more than five senses
+🗣️ Agent would say (full): That’s true—According to wikipedia.org, Yet we have always known that we are capable of sensing much more than. .
+📚 Sources:
+  • Humans have more than 5 senses | World Economic Forum — https://www.weforum.org/stories/2017/01/humans-have-more-than-5-senses/
+  • TIL humans dont actually have five senses, we have other senses ... — https://www.reddit.com/r/todayilearned/comments/b4b94f/til_humans_dont_actually_have_five_senses_we_have/
+  • Sense - Wikipedia — https://en.wikipedia.org/wiki/Sense
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:34:49
+🔎 Claim: humans have more than five senses
+🗣️ Agent would say (full): That’s true—According to wikipedia.org, Yet we have always known that we are capable of sensing much more than. .
+📚 Sources:
+  • Humans have more than 5 senses | World Economic Forum — https://www.weforum.org/stories/2017/01/humans-have-more-than-5-senses/
+  • TIL humans dont actually have five senses, we have other senses ... — https://www.reddit.com/r/todayilearned/comments/b4b94f/til_humans_dont_actually_have_five_senses_we_have/
+  • Sense - Wikipedia — https://en.wikipedia.org/wiki/Sense
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:36:25
+🔎 Claim: humans have more than 5 senses
+🗣️ Agent would say (full): That’s true—According to wikipedia.org, Although, in some cultures, five human senses were traditionally identified as such (namely sight, smell, touch, taste, and hearing), many more are now. .
+📚 Sources:
+  • Humans have more than 5 senses | World Economic Forum — https://www.weforum.org/stories/2017/01/humans-have-more-than-5-senses/
+  • TIL humans dont actually have five senses, we have other senses ... — https://www.reddit.com/r/todayilearned/comments/b4b94f/til_humans_dont_actually_have_five_senses_we_have/
+  • Sense - Wikipedia — https://en.wikipedia.org/wiki/Sense
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:39:19
+🔎 Claim: humans have more than five senses
+🗣️ Agent would say (full): That’s true—According to wikipedia.org, Although, in some cultures, five human senses were traditionally identified as such (namely sight, smell, touch, taste, and hearing), many more are now. .
+📚 Sources:
+  • Humans have more than 5 senses | World Economic Forum — https://www.weforum.org/stories/2017/01/humans-have-more-than-5-senses/
+  • TIL humans dont actually have five senses, we have other senses ... — https://www.reddit.com/r/todayilearned/comments/b4b94f/til_humans_dont_actually_have_five_senses_we_have/
+  • Sense - Wikipedia — https://en.wikipedia.org/wiki/Sense
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:39:39
+🔎 Claim: humans have more than five senses
+🗣️ Agent would say (full): That’s true—According to wikipedia.org, Although, in some cultures, five human senses were traditionally identified as such (namely sight, smell, touch, taste, and hearing), many more are now. .
+📚 Sources:
+  • Humans have more than 5 senses | World Economic Forum — https://www.weforum.org/stories/2017/01/humans-have-more-than-5-senses/
+  • TIL humans dont actually have five senses, we have other senses ... — https://www.reddit.com/r/todayilearned/comments/b4b94f/til_humans_dont_actually_have_five_senses_we_have/
+  • Sense - Wikipedia — https://en.wikipedia.org/wiki/Sense
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:41:30
+🔎 Claim: humans have more than five senses
+🗣️ Agent would say (full): That’s true—According to wikipedia.org, . .
+📚 Sources:
+  • Humans have more than 5 senses | World Economic Forum — https://www.weforum.org/stories/2017/01/humans-have-more-than-5-senses/
+  • TIL humans dont actually have five senses, we have other senses ... — https://www.reddit.com/r/todayilearned/comments/b4b94f/til_humans_dont_actually_have_five_senses_we_have/
+  • Sense - Wikipedia — https://en.wikipedia.org/wiki/Sense
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:43:07
+🔎 Claim: humans have more than five senses
+🗣️ Agent would say (full): That’s true—According to wikipedia.org, Although, in some cultures, five human senses were traditionally identified as such (namely sight, smell, touch, taste, and hearing), many more are now. .
+📚 Sources:
+  • Humans have more than 5 senses | World Economic Forum — https://www.weforum.org/stories/2017/01/humans-have-more-than-5-senses/
+  • TIL humans dont actually have five senses, we have other senses ... — https://www.reddit.com/r/todayilearned/comments/b4b94f/til_humans_dont_actually_have_five_senses_we_have/
+  • Sense - Wikipedia — https://en.wikipedia.org/wiki/Sense
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:43:26
+🔎 Claim: whales are fish
+🗣️ Agent would say (full): That’s not true—According to mit.edu, Whales are fish because fish is a cultural term, not a biological one. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Whales are fish : r/sciencememes — https://www.reddit.com/r/sciencememes/comments/16so199/whales_are_fish/
+  • Are Whales Fish? | The MIT Press Reader — https://thereader.mitpress.mit.edu/are-whales-fish/
+  • Question for the "whales are technically fish" crowd : r/Paleontology — https://www.reddit.com/r/Paleontology/comments/vptrxu/question_for_the_whales_are_technically_fish_crowd/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:43:41
+🔎 Claim: bats are blind
+🗣️ Agent would say (full): That’s not true—According to usgs.gov, Bats have small eyes with very sensitive vision, which helps them see in conditions we might consider pitch black. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Are bats blind? | U.S. Geological Survey — https://www.usgs.gov/faqs/are-bats-blind
+  • Blind as a Bat? No Such Thing - Bat Conservation International — https://www.batcon.org/blind-as-a-bat-no-such-thing/
+  • are bats actually blind or is it just a myth and do they have really ... — https://www.reddit.com/r/askscience/comments/vv6utt/are_bats_actually_blind_or_is_it_just_a_myth_and/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:47:28
+🔎 Claim: humans have more than five senses
+🗣️ Agent would say (full): That’s true—According to wikipedia.org, The provided evidence consistently and explains that humans have more than five senses. .
+📚 Sources:
+  • Humans have more than 5 senses | World Economic Forum — https://www.weforum.org/stories/2017/01/humans-have-more-than-5-senses/
+  • TIL humans dont actually have five senses, we have other senses ... — https://www.reddit.com/r/todayilearned/comments/b4b94f/til_humans_dont_actually_have_five_senses_we_have/
+  • Sense - Wikipedia — https://en.wikipedia.org/wiki/Sense
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:47:48
+🔎 Claim: bats are blind
+🗣️ Agent would say (full): That’s not true—According to usgs.gov, Bats have small eyes with very sensitive vision, which helps them see in conditions we might consider pitch black. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Are bats blind? | U.S. Geological Survey — https://www.usgs.gov/faqs/are-bats-blind
+  • Blind as a Bat? No Such Thing - Bat Conservation International — https://www.batcon.org/blind-as-a-bat-no-such-thing/
+  • are bats actually blind or is it just a myth and do they have really ... — https://www.reddit.com/r/askscience/comments/vv6utt/are_bats_actually_blind_or_is_it_just_a_myth_and/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:48:05
+🔎 Claim: whales are fish
+🗣️ Agent would say (full): That’s not true—According to mit.edu, Whales are fish because fish is a cultural term, not a biological one. Whales are, after all, mammals, and no other mammals are much like fish.
+📚 Sources:
+  • Whales are fish : r/sciencememes — https://www.reddit.com/r/sciencememes/comments/16so199/whales_are_fish/
+  • Are Whales Fish? | The MIT Press Reader — https://thereader.mitpress.mit.edu/are-whales-fish/
+  • Question for the "whales are technically fish" crowd : r/Paleontology — https://www.reddit.com/r/Paleontology/comments/vptrxu/question_for_the_whales_are_technically_fish_crowd/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:48:23
+🔎 Claim: lightning never strikes the same place twice
+🗣️ Agent would say (full): That’s not true—According to nasa.gov, Certain conditions are just ripe for a bolt of electricity to come zapping. This is a common mistake people sometimes believe.
+📚 Sources:
+  • 5 striking facts versus myths about lightning you should know ... — https://www.noaa.gov/stories/5-striking-facts-versus-myths-about-lightning-you-should-know
+  • Can Lightning Strike the Same Place Twice? | Britannica — https://www.britannica.com/story/can-lightning-strike-the-same-place-twice
+  • Lightning Often Strikes Twice | NASA Spinoff — https://spinoff.nasa.gov/Spinoff2005/ps_3.html
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:48:50
+🔎 Claim: bananas grow on trees
+🗣️ Agent would say (full): That’s true—According to sdzwildlifeexplorers.org, Believe it or not, bananas don't grow on trees…they don't have a true trunk. The long, stout structure that holds leaves and fruit is called a pseudostem.
+📚 Sources:
+  • Go Bananas! | San Diego Zoo Wildlife Explorers — https://sdzwildlifeexplorers.org/stories/go-bananas
+  • Growing Bananas - How To Grow Banana Plants And Keep Them ... — https://www.tropicalpermaculture.com/growing-bananas.html
+  • Banana trees grow FAST. This is the progression of my favorite plant ... — https://www.reddit.com/r/houseplants/comments/r6tfz7/banana_trees_grow_fast_this_is_the_progression_of/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:49:09
+🔎 Claim: the sun is a star
+🗣️ Agent would say (full): That’s true—According to wikipedia.org, The Sun is the star at the centre of the Solar System. It is a massive, nearly perfect sphere of hot plasma, heated to incandescence by nuclear fusion.
+📚 Sources:
+  • Sun - NASA Science — https://science.nasa.gov/sun/
+  • Sun - Wikipedia — https://en.wikipedia.org/wiki/Sun
+  • Sun: Facts - NASA Science — https://science.nasa.gov/sun/facts/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:49:29
+🔎 Claim: jupiter has more than 50 moons
+🗣️ Agent would say (full): That’s true—According to capriplus3.com, There are actually more than 50 moons, but 50 of them are officially recognized. .
+📚 Sources:
+  • For planets with dozens of moons, do moons ever collide? And if so ... — https://www.reddit.com/r/askscience/comments/ujflq7/for_planets_with_dozens_of_moons_do_moons_ever/
+  • Jupiter's Moons-Counting by 5's - Capri + 3 — https://capriplus3.com/Jupiters-Moons-Preschool-Kinder-Math/
+  • Venus Number of Moons - Universe Today — https://www.universetoday.com/articles/venus-number-of-moons
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:50:21
+🔎 Claim: sharks need to keep swimming to stay alive
+🗣️ Agent would say (full): That’s true—According to britannica.com, Instead, these sharks rely on obligate ram ventilation, a way of breathing that requires sharks to swim with their mouths open. .
+📚 Sources:
+  • Do Sharks Really Die if They Stop Swimming? | Britannica — https://www.britannica.com/story/do-sharks-really-die-if-they-stop-swimming
+  • Do sharks really have to keep swimming to breath if so why? : r ... — https://www.reddit.com/r/askscience/comments/9uuqs9/do_sharks_really_have_to_keep_swimming_to_breath/
+  • Do sharks drown if they stop swimming? - Two Oceans Aquarium — https://www.aquarium.co.za/news/do-sharks-drown-if-they-stop-swimming
+--------------------------------------------------------------------------------
+
+🕓 2025-10-29 15:51:41
+🔎 Claim: sharks need to keep swimming to stay alive
+🗣️ Agent would say (full): That’s not true—According to britannica.com, Instead, these sharks rely on obligate ram ventilation, a way of breathing that requires sharks to swim with their mouths open. This is a common mistake people sometimes believe.
+📚 Sources:
+  • Do Sharks Really Die if They Stop Swimming? | Britannica — https://www.britannica.com/story/do-sharks-really-die-if-they-stop-swimming
+  • Do sharks really have to keep swimming to breath if so why? : r ... — https://www.reddit.com/r/askscience/comments/9uuqs9/do_sharks_really_have_to_keep_swimming_to_breath/
+  • Do sharks drown if they stop swimming? - Two Oceans Aquarium — https://www.aquarium.co.za/news/do-sharks-drown-if-they-stop-swimming
+--------------------------------------------------------------------------------
