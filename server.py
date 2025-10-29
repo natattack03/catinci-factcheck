@@ -117,18 +117,24 @@ verdict, confidence (0–1), rationale.
 # -------------------------------------------------------------------
 @app.route("/fact_check", methods=["POST"])
 def fact_check():
-    data = request.get_json()
-    query = data.get("query", "").strip()
-    if not query:
+    data = request.get_json(force=True, silent=True)
+    claim = None
+
+    if data and "claim" in data:
+        claim = data["claim"].strip()
+    elif request.json and "claim" in request.json:
+        claim = request.json["claim"].strip()
+
+    print(f"🧠 Received claim: {claim}")
+
+    if not claim:
         return jsonify({
             "verdict": "unsure",
             "confidence": 0.0,
-            "rationale": "No input provided.",
+            "rationale": "No claim text provided in request.",
             "citations": []
-        }), 400
+        })
 
-    result = run_fact_check_logic(query)
-    return jsonify(result)
 
 
 # -------------------------------------------------------------------
