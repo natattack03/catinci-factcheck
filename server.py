@@ -12,6 +12,8 @@ from flask_cors import CORS
 from googleapiclient.discovery import build
 import google.generativeai as genai
 from dotenv import load_dotenv
+from datetime import datetime
+from urllib.parse import urlparse
 
 # -------------------------------------------------------------------
 # 1. Setup
@@ -26,6 +28,79 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # Configure Gemini client
 genai.configure(api_key=GEMINI_API_KEY)
+
+# Preferred domains and penalties for ranking search results
+TRUSTED_DOMAIN_PATTERNS = [
+    ("nasa.gov", 400),
+    ("nationalgeographic.com", 350),
+    ("kids.nationalgeographic.com", 350),
+    ("britannica.com", 350),
+    ("smithsonianmag.com", 325),
+    ("who.int", 325),
+    ("nih.gov", 325),
+    ("cdc.gov", 325),
+    ("noaa.gov", 300),
+    ("mit.edu", 300),
+    ("harvard.edu", 300),
+    ("stanford.edu", 300),
+    ("edu", 0),  # generic fallback; bonus handled by TLD score
+]
+
+LOW_CREDIBILITY_DOMAINS = [
+    "reddit.com",
+    "quora.com",
+    "stackexchange.com",
+    "stackoverflow.com",
+    "fandom.com",
+    "facebook.com",
+    "twitter.com",
+    "x.com",
+    "medium.com",
+    "tiktok.com",
+    "youtube.com",
+    "youtu.be",
+    "instagram.com",
+]
+
+
+def normalize_domain(url: str) -> str:
+    """Extract base domain from a URL."""
+    try:
+        domain = urlparse(url).netloc.lower()
+    except Exception:
+        return ""
+    if domain.startswith("www."):
+        domain = domain[4:]
+    return domain
+
+
+def domain_priority_score(domain: str) -> int:
+    """Score domains to encourage educational and scientific sources."""
+    if not domain:
+        return 0
+
+    # Penalize low-credibility domains heavily
+    if any(domain.endswith(bad) or bad in domain for bad in LOW_CREDIBILITY_DOMAINS):
+        return -200
+
+    score = 0
+    if domain.endswith(".edu"):
+        score += 400
+    elif domain.endswith(".gov"):
+        score += 350
+    elif domain.endswith(".org"):
+        score += 250
+    elif domain.endswith(".com"):
+        score += 150
+    else:
+        score += 100
+
+    for pattern, bonus in TRUSTED_DOMAIN_PATTERNS:
+        if domain.endswith(pattern):
+            score += bonus
+            break
+
+    return score
 
 # -------------------------------------------------------------------
 # 2. Helper: Format spoken response for ElevenLabs
@@ -104,7 +179,31 @@ def run_fact_check_logic(query: str):
             "spoken": "I’m not completely sure — I couldn’t find enough information to answer that."
         }
 
-    evidence = "\n".join(f"{i['title']}: {i['snippet']}" for i in items)
+    annotated_items = []
+    for idx, item in enumerate(items):
+        link = item.get("link", "")
+        domain = normalize_domain(link)
+        score = domain_priority_score(domain)
+        annotated_items.append(
+            {
+                "rank": idx,
+                "item": item,
+                "domain": domain,
+                "score": score,
+            }
+        )
+
+    sorted_items = sorted(annotated_items, key=lambda entry: (-entry["score"], entry["rank"]))
+
+    evidence_lines = []
+    for entry in sorted_items:
+        title = (entry["item"].get("title") or "").strip()
+        snippet = (entry["item"].get("snippet") or "").strip()
+        snippet = re.sub(r"\s+", " ", snippet)
+        domain_label = entry["domain"] or "unknown"
+        evidence_lines.append(f"- {domain_label}: {title}: {snippet}")
+
+    evidence = "\n".join(evidence_lines)
 
     # --- Gemini reasoning phase ---
     try:
@@ -116,12 +215,22 @@ Evidence (from Google search snippets):
 {evidence}
 
 Based on the evidence above, classify the claim as one of:
-- true  (supported by reputable evidence)
+- true (supported by reputable evidence)
 - false (contradicted by reputable evidence)
 - unsure (unclear or insufficient evidence)
 
-Return a short explanation that a 7-year-old can understand.
-"""
+Then, write your response in this format:
+"That’s [true/false/unsure] — According to [source name], [one-sentence explanation in simple words that a 5–7 year old can understand]."
+
+Rules:
+- Pick one clear, trustworthy source. Prioritize sources by domain: .edu > .gov > .org > .com > other.
+- Prefer well-known scientific or educational organizations (NASA, National Geographic, Britannica, Smithsonian, WHO, NIH, universities).
+- Avoid user-generated or crowd-based sites (Reddit, Quora, forums, fandom wikis) unless no other reputable information is available.
+- State the source using its domain name (e.g., "According to nasa.gov").
+- Avoid technical words like “snippet,” “rationale,” or “evidence.”
+- Keep the tone short, warm, and easy to understand.
+- Do not return JSON or code blocks.
+	"""
         response = model.generate_content(prompt)
         text = response.text.strip()
         print(f"🤖 Gemini raw output:\n{text}\n")
@@ -137,8 +246,12 @@ Return a short explanation that a 7-year-old can understand.
             "confidence": 0.8,
             "rationale": text,
             "citations": [
-                {"title": i["title"], "url": i["link"], "quote": i["snippet"]}
-                for i in items[:3]
+                {
+                    "title": entry["item"].get("title", ""),
+                    "url": entry["item"].get("link", ""),
+                    "quote": entry["item"].get("snippet", ""),
+                }
+                for entry in sorted_items[:3]
             ]
         }
 
@@ -164,7 +277,13 @@ Return a short explanation that a 7-year-old can understand.
 def fact_check():
     try:
         data = request.get_json(force=True, silent=True)
-        claim = data.get("claim", "").strip()
+        if not isinstance(data, dict):
+            return jsonify({"spoken": "I couldn’t read that fact to check it. Please send it again."}), 200
+
+        claim = data.get("claim", "")
+        if not isinstance(claim, str):
+            return jsonify({"spoken": "I only understand facts written as text sentences."}), 200
+        claim = claim.strip()
         print(f"🧠 Received claim: {claim}")
 
         if not claim:
@@ -177,6 +296,27 @@ def fact_check():
         # Prefer Gemini’s explanation; fallback to rationale text
         explanation = result.get("rationale", "").strip()
         spoken = explanation
+
+        # 📝 Append detailed log entry with sources for review
+        try:
+            with open("factcheck_log.txt", "a", encoding="utf-8") as log_file:
+                log_file.write(
+                    f"\n🕓 {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}"
+                    f"\n🔎 Claim: {claim}"
+                    f"\n🗣️ Agent would say (full): {spoken}"
+                )
+
+                citations = result.get("citations") or []
+                if citations:
+                    log_file.write("\n📚 Sources:")
+                    for cite in citations:
+                        title = (cite.get("title") or "").strip()
+                        url = (cite.get("url") or "").strip()
+                        if title or url:
+                            log_file.write(f"\n  • {title} — {url}")
+                log_file.write(f"\n{'-'*80}\n")
+        except Exception as log_error:
+            print(f"⚠️ Could not write to factcheck_log.txt: {log_error}")
 
         # Ensure ElevenLabs gets *only* what it can read aloud
         return jsonify({"spoken": spoken}), 200

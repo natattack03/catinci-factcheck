@@ -113,9 +113,6 @@ def polish_sentence(text: str) -> str:
     text = re.sub(r"\s+", " ", text or "").strip().strip('"\' ,;:')
     if not text:
         return ""
-    text = re.sub(r"^(?:although|though|while)[,\s]*[^,]*,\s*", "", text, flags=re.IGNORECASE)
-    if not text:
-        return ""
     # Capitalize first letter
     text = text[0].upper() + text[1:]
     # Fix spacing before periods and duplicate punctuation
@@ -131,14 +128,13 @@ def is_complete_simple_sentence(text: str) -> bool:
         return False
     bad_endings = [
         "because", "such as", "for example", "for instance", "like", "this is what causes",
-        "more than", "at least", "including", "include", "includes"
+        "more than", "at least", "including", "include", "includes", "now", "then", "also", "too"
     ]
     low = t.lower()
-    trimmed = low.rstrip(" .")
-    if any(trimmed.endswith(be) for be in bad_endings):
+    if any(low.endswith(be) for be in bad_endings):
         return False
     # Require a simple verb indicating a factual claim
-    if not re.search(r"\b(is|are|has|have|can|cannot|can't|includes?|contain|contains|means|refers|provide|provides|allow|allows|recognized|recognised|remain|remains)\b", low):
+    if not re.search(r"\b(is|are|has|have|can|cannot|can't|includes?|contain|contains|means|refers|provide|provides|allow|allows)\b", low):
         return False
     if '?' in t:
         return False
@@ -321,12 +317,12 @@ def is_clean_fact_sentence(s: str) -> bool:
         return False
     if "forum" in low or "forums" in low or "wordreference" in low:
         return False
-    if low.count(',') > 4:
+    if low.count(',') > 1:
         return False
-    if low.count(' and ') > 3:
+    if low.count(' and ') > 2:
         return False
     words = t.split()
-    if len(words) > 40:
+    if len(words) > 26:
         return False
     if ("no penguins" in low or "no penguin" in low) and "south pole" in low:
         return False
@@ -484,8 +480,8 @@ def format_spoken_response(
             continue
         if "forum" in lowered or "forums" in lowered or "wordreference" in lowered:
             continue
-        # Skip overly compound rationale pieces with multiple topics
-        if lowered.count(',') > 4:
+        # Skip long, overly compound rationale pieces
+        if lowered.count(',') > 1 or ('(' in lowered and ')' in lowered):
             continue
         if verdict == "true" and any(word in lowered for word in ["contradict", "incorrect", "false", "not true", "wrong"]):
             continue

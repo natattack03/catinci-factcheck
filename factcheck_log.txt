@@ -1621,3 +1621,129 @@ I’m not completely sure — No input provided.
   • Do sharks really have to keep swimming to breath if so why? : r ... — https://www.reddit.com/r/askscience/comments/9uuqs9/do_sharks_really_have_to_keep_swimming_to_breath/
   • Do sharks drown if they stop swimming? - Two Oceans Aquarium — https://www.aquarium.co.za/news/do-sharks-drown-if-they-stop-swimming
 --------------------------------------------------------------------------------
+
+🕓 2025-10-30 17:50:03 UTC
+🔎 Claim: Penguins live in the North Pole
+🗣️ Agent would say (full): That’s false — According to Aurora Expeditions, penguins live far away in a cold place called Antarctica, not in the North Pole.
+📚 Sources:
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Why don't penguins live in the Arctic? : r/askscience — https://www.reddit.com/r/askscience/comments/fnnayc/why_dont_penguins_live_in_the_arctic/
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+--------------------------------------------------------------------------------
+
+🕓 2025-10-30 17:51:21 UTC
+🔎 Claim: bees die when they sting you
+🗣️ Agent would say (full): That’s false — According to the Forest Preserve District, only honey bees die when they sting you, but other kinds of bees don't.
+📚 Sources:
+  • Why does evolution cause bees to die when stinging? : r/evolution — https://www.reddit.com/r/evolution/comments/1bddk9f/why_does_evolution_cause_bees_to_die_when_stinging/
+  • 2024 | Most bees don't die after stinging - and other surprising bee ... — https://www.uow.edu.au/media/2024/most-bees-dont-die-after-stinging---and-other-surprising-beefacts.php
+  • Why do honeybees die when they sting? | PBS News — https://www.pbs.org/newshour/science/honeybee-sting-kill-bee
+--------------------------------------------------------------------------------
+
+🕓 2025-10-30 17:52:33 UTC
+🔎 Claim: lightning cannot strike the same place twice
+🗣️ Agent would say (full): That’s false — According to NASA Spinoff, lightning can totally hit the same spot again.
+📚 Sources:
+  • 5 striking facts versus myths about lightning you should know ... — https://www.noaa.gov/stories/5-striking-facts-versus-myths-about-lightning-you-should-know
+  • Lightning Often Strikes Twice | NASA Spinoff — https://spinoff.nasa.gov/Spinoff2005/ps_3.html
+  • Can Lightning Strike the Same Place Twice? | Britannica — https://www.britannica.com/story/can-lightning-strike-the-same-place-twice
+--------------------------------------------------------------------------------
+
+🕓 2025-10-30 17:53:48 UTC
+🔎 Claim: the earth revolves around the sun
+🗣️ Agent would say (full): That’s true — According to NASA Science, our Earth goes around the big Sun.
+📚 Sources:
+  • Is it wrong to say that the sun turns around the earth ? : r/AskPhysics — https://www.reddit.com/r/AskPhysics/comments/1hfqp71/is_it_wrong_to_say_that_the_sun_turns_around_the/
+  • Chapter 2: Reference Systems - NASA Science — https://science.nasa.gov/learn/basics-of-space-flight/chapter2-1/
+  • When did we realize Earth orbits the Sun? — https://www.astronomy.com/science/when-did-we-realize-that-the-earth-orbits-the-sun/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-30 17:54:50 UTC
+🔎 Claim: allsnakes are poisonous
+🗣️ Agent would say (full): That’s false — According to snake lovers, only a small part of snakes are poisonous, not all of them.
+📚 Sources:
+  • Mohammed on X: ""Not all snakes are poisonous but we are afraid ... — https://x.com/IKON1436/status/1827640215843873186?lang=en
+  • Not all snakes : r/TrollXChromosomes — https://www.reddit.com/r/TrollXChromosomes/comments/16jadgw/not_all_snakes/
+  • Only 25% of all snakes are poisonous, and it's important to protect ... — https://www.thehindu.com/sci-tech/energy-and-environment/only-25-of-all-snakes-are-poisonous-and-its-important-to-protect-them-say-snake-lovers/article67083938.ece
+--------------------------------------------------------------------------------
+
+🕓 2025-10-30 18:05:24 UTC
+🔎 Claim: allsnakes are poisonous
+🗣️ Agent would say (full): That’s false — According to thehindu.com, only some snakes are poisonous, not all of them.
+📚 Sources:
+  • Only 25% of all snakes are poisonous, and it's important to protect ... — https://www.thehindu.com/sci-tech/energy-and-environment/only-25-of-all-snakes-are-poisonous-and-its-important-to-protect-them-say-snake-lovers/article67083938.ece
+  • Mohammed on X: ""Not all snakes are poisonous but we are afraid ... — https://x.com/IKON1436/status/1827640215843873186?lang=en
+  • Not all snakes : r/TrollXChromosomes — https://www.reddit.com/r/TrollXChromosomes/comments/16jadgw/not_all_snakes/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-30 18:06:17 UTC
+🔎 Claim: penguins live in the north pole
+🗣️ Agent would say (full): That’s false — According to nationalgeographic.com, penguins do not live in the North Pole.
+📚 Sources:
+  • Penguins don't live at the South Pole, and more polar myths ... — https://www.nationalgeographic.com/animals/article/arctic-antarctica-wildlife-myths-explained
+  • Why are there no penguins in the Arctic? - Aurora Expeditions — https://www.aurora-expeditions.com/blog/why-are-there-no-penguins-in-the-arctic
+  • Are There Penguins in The Arctic? | Poseidon Expeditions — https://poseidonexpeditions.com/about/articles/are-there-penguins-in-the-arctic/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-30 18:07:26 UTC
+🔎 Claim: dusk is the same as dawn
+🗣️ Agent would say (full): That’s false — According to rmg.co.uk, dawn is when the sun comes up, and dusk is when the sun goes down, so they happen at different times.
+📚 Sources:
+  • Twilight - Wikipedia — https://en.wikipedia.org/wiki/Twilight
+  • The Different Types of Twilight, Dawn and Dusk — https://www.timeanddate.com/astronomy/different-types-twilight.html
+  • Dawn, dusk and twilight | Meanings and Timings — https://www.rmg.co.uk/stories/time/when-dawn-dusk-twilight
+--------------------------------------------------------------------------------
+
+🕓 2025-10-30 18:08:26 UTC
+🔎 Claim: whales are fish
+🗣️ Agent would say (full): That’s false — According to mitpress.mit.edu, whales are mammals, not fish.
+📚 Sources:
+  • Are Whales Fish? | The MIT Press Reader — https://thereader.mitpress.mit.edu/are-whales-fish/
+  • Are whales mammals or fish? - Whale and Dolphin Conservation — https://uk.whales.org/whales-dolphins/are-whales-mammals-or-fish/
+  • Whales are fish : r/sciencememes — https://www.reddit.com/r/sciencememes/comments/16so199/whales_are_fish/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-30 18:10:51 UTC
+🔎 Claim: dusk is the same as dawn
+🗣️ Agent would say (full): That’s false — According to rmg.co.uk, dawn is when the sun comes up, and dusk is when the sun goes down.
+📚 Sources:
+  • Twilight - Wikipedia — https://en.wikipedia.org/wiki/Twilight
+  • The Different Types of Twilight, Dawn and Dusk — https://www.timeanddate.com/astronomy/different-types-twilight.html
+  • Dawn, dusk and twilight | Meanings and Timings — https://www.rmg.co.uk/stories/time/when-dawn-dusk-twilight
+--------------------------------------------------------------------------------
+
+🕓 2025-10-30 18:16:39 UTC
+🔎 Claim: No, penguins live mostly in the Southern Hemisphere, especially around Antarctica, not the North Pole. The North Pole has animals like polar bears instead. Penguins like cold places but not the North Pole! Tail twitch!
+🗣️ Agent would say (full): That’s true — According to readinghorizons.com, most penguins like cold places like Antarctica, and polar bears live in different cold places like the North Pole.
+📚 Sources:
+  • The Polar Paradox: Why Are There No Penguins In The Arctic ... — https://www.antarcticacruises.com/guide/do-penguins-live-in-the-arctic
+  • Reading Library - Book 4 — https://readinghorizons.com/Media/Default/Documents/Correlations/General/RHE-v8-Reading-Library-Book-4.pdf
+  • Do Polar Bears Live In Antarctica? | Antarctica Cruises — https://www.antarcticacruises.com/guide/do-polar-bears-live-in-antarctica
+--------------------------------------------------------------------------------
+
+🕓 2025-10-30 18:18:47 UTC
+🔎 Claim: Yes, lightning can strike the same place twice, especially tall or pointy things like trees or buildings. Lightning likes to follow the easiest path to the ground, so if that spot is still the best path, it can get zapped again. Tail twitch!
+🗣️ Agent would say (full): That’s unsure — According to ledburypoetry.org.uk, the information talks about poems written during lockdown, not about lightning.
+📚 Sources:
+  • You're Not Losing Your Mind, You're Mourning: Grief from the Loss ... — https://grishastewart.com/pet-loss-grief/
+  • Lockdown Poems - Ledbury Poetry — https://ledburypoetry.org.uk/lockdown-poems/
+  • [WP] This is the prologue (or the first chapter) of the novel you've ... — https://www.reddit.com/r/WritingPrompts/comments/3konk3/wp_this_is_the_prologue_or_the_first_chapter_of/
+--------------------------------------------------------------------------------
+
+🕓 2025-10-30 18:26:01 UTC
+🔎 Claim: Lightning never strikes the same place twice.
+🗣️ Agent would say (full): That’s false — According to noaa.gov, lightning often hits the same spot more than once.
+📚 Sources:
+  • Lightning Often Strikes Twice | NASA Spinoff — https://spinoff.nasa.gov/Spinoff2005/ps_3.html
+  • 5 striking facts versus myths about lightning you should know ... — https://www.noaa.gov/stories/5-striking-facts-versus-myths-about-lightning-you-should-know
+  • Can Lightning Strike the Same Place Twice? | Britannica — https://www.britannica.com/story/can-lightning-strike-the-same-place-twice
+--------------------------------------------------------------------------------
+
+🕓 2025-10-30 18:26:17 UTC
+🔎 Claim: Goldfish have a memory span of only three seconds.
+🗣️ Agent would say (full): That’s false — According to psu.edu, goldfish can remember things for many months, not just a few seconds.
+📚 Sources:
+  • Do Goldfish Only Have a 3 Second Memory? L8 | Psych 256 ... — https://sites.psu.edu/psych256su16-2/2016/07/12/do-goldfish-only-have-a-3-second-memory-l8/
+  • MythBuster: Goldfish Have a 3-Second Memory — STEAM Ahead — https://www.westeamahead.org/blog/2025/8/7/mythbuster-goldfish-have-a-3-second-memory
+  • Goldfish as a Model for Understanding Learning and Memory: More ... — https://www.amnh.org/learn-teach/curriculum-collections/young-naturalist-awards/goldfish-as-a-model-for-understanding-learning-and-memory-more-complex-than-you-think
+--------------------------------------------------------------------------------
