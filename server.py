@@ -165,50 +165,26 @@ def fact_check():
     try:
         data = request.get_json(force=True, silent=True)
         claim = data.get("claim", "").strip()
-
         print(f"🧠 Received claim: {claim}")
+
         if not claim:
-            return jsonify({
-                "verdict": "unsure",
-                "spoken": "I couldn’t find anything to fact-check that time, sorry!",
-                "confidence": 0.0,
-                "rationale": "No claim provided.",
-                "citations": []
-            }), 200
+            return jsonify({"spoken": "I didn’t catch that to fact-check, sorry!"}), 200
 
-        # Run the live fact-check logic
         result = run_fact_check_logic(claim)
+        print("🤖 Gemini raw output:", result.get("rationale", ""))
 
-        # Pick a short friendly source name
-        if result["citations"]:
-            source = result["citations"][0]["title"].split(" - ")[0]
-        else:
-            source = "a reliable source"
+        # 🧩 Extract the short summary to speak aloud
+        # Prefer Gemini’s explanation; fallback to rationale text
+        explanation = result.get("rationale", "").strip()
+        spoken = explanation
 
-        verdict = result.get("verdict", "unsure")
-        rationale = result.get("rationale", "")
-        spoken = ""
-
-        # Simplify Gemini output for speech
-        if verdict == "true":
-            spoken = f"That’s true — According to {source}, {rationale.split('Explanation for a 7-year-old:')[-1].strip()}"
-        elif verdict == "false":
-            spoken = f"That’s not true — According to {source}, {rationale.split('Explanation for a 7-year-old:')[-1].strip()}"
-        else:
-            spoken = f"I’m not completely sure — According to {source}, {rationale.split('Explanation for a 7-year-old:')[-1].strip()}"
-
-        # Return only clean JSON ElevenLabs expects
-        return jsonify({
-            "verdict": verdict,
-            "spoken": spoken
-        }), 200
+        # Ensure ElevenLabs gets *only* what it can read aloud
+        return jsonify({"spoken": spoken}), 200
 
     except Exception as e:
-        print("❌ Error in /fact_check:", e)
-        return jsonify({
-            "verdict": "unsure",
-            "spoken": "Hmm, I couldn’t double-check that right now, but I’ll keep learning!",
-        }), 200
+        print(f"❌ Error in /fact_check: {e}")
+        return jsonify({"spoken": "Hmm, my fact-checking tool had trouble just now!"}), 200
+
 
 
 
