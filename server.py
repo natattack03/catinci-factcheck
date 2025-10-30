@@ -164,37 +164,52 @@ Return a short explanation that a 7-year-old can understand.
 def fact_check():
     try:
         data = request.get_json(force=True, silent=True)
-        claim = None
-
-        if data and "claim" in data:
-            claim = data["claim"].strip()
-        elif request.json and "claim" in request.json:
-            claim = request.json["claim"].strip()
+        claim = data.get("claim", "").strip()
 
         print(f"🧠 Received claim: {claim}")
-
         if not claim:
             return jsonify({
                 "verdict": "unsure",
+                "spoken": "I couldn’t find anything to fact-check that time, sorry!",
                 "confidence": 0.0,
-                "rationale": "No claim text provided in request.",
-                "citations": [],
-                "spoken": "I’m not completely sure — I didn’t receive a statement to fact-check."
+                "rationale": "No claim provided.",
+                "citations": []
             }), 200
 
-        # Run fact-check logic
+        # Run the live fact-check logic
         result = run_fact_check_logic(claim)
-        return jsonify(result), 200
+
+        # Pick a short friendly source name
+        if result["citations"]:
+            source = result["citations"][0]["title"].split(" - ")[0]
+        else:
+            source = "a reliable source"
+
+        verdict = result.get("verdict", "unsure")
+        rationale = result.get("rationale", "")
+        spoken = ""
+
+        # Simplify Gemini output for speech
+        if verdict == "true":
+            spoken = f"That’s true — According to {source}, {rationale.split('Explanation for a 7-year-old:')[-1].strip()}"
+        elif verdict == "false":
+            spoken = f"That’s not true — According to {source}, {rationale.split('Explanation for a 7-year-old:')[-1].strip()}"
+        else:
+            spoken = f"I’m not completely sure — According to {source}, {rationale.split('Explanation for a 7-year-old:')[-1].strip()}"
+
+        # Return only clean JSON ElevenLabs expects
+        return jsonify({
+            "verdict": verdict,
+            "spoken": spoken
+        }), 200
 
     except Exception as e:
         print("❌ Error in /fact_check:", e)
         return jsonify({
             "verdict": "unsure",
-            "confidence": 0.0,
-            "rationale": f"Server error: {str(e)}",
-            "citations": [],
-            "spoken": "I’m not completely sure — Something went wrong while fact-checking."
-        }), 500
+            "spoken": "Hmm, I couldn’t double-check that right now, but I’ll keep learning!",
+        }), 200
+
 
 
 @app.route("/health", methods=["GET"])
