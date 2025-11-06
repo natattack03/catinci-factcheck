@@ -325,6 +325,58 @@ def fact_check():
         print(f"❌ Error in /fact_check: {e}")
         return jsonify({"spoken": "Hmm, my fact-checking tool had trouble just now!"}), 200
 
+@app.route("/fact_checker2", methods=["POST"])
+def fact_checker2():
+    try:
+        data = request.get_json(force=True, silent=True)
+        if not isinstance(data, dict):
+            return jsonify({"spoken": "I couldn’t read that fact to check it. Please send it again."}), 200
+
+        claim = data.get("claim", "")
+        if not isinstance(claim, str):
+            return jsonify({"spoken": "I only understand facts written as text sentences."}), 200
+        claim = claim.strip()
+        print(f"🧠 Received claim: {claim}")
+
+        if not claim:
+            return jsonify({"spoken": "I didn’t catch that to fact-check, sorry!"}), 200
+
+        result = run_fact_check_logic(claim)
+        print("🤖 Gemini raw output:", result.get("rationale", ""))
+
+        # 🧩 Extract the short summary to speak aloud
+        # Prefer Gemini’s explanation; fallback to rationale text
+        explanation = result.get("rationale", "").strip()
+        spoken = explanation
+
+        # 📝 Append detailed log entry with sources for review
+        try:
+            with open("factcheck_log.txt", "a", encoding="utf-8") as log_file:
+                log_file.write(
+                    f"\n🕓 {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}"
+                    f"\n🔎 Claim: {claim}"
+                    f"\n🗣️ Agent would say (full): {spoken}"
+                )
+
+                citations = result.get("citations") or []
+                if citations:
+                    log_file.write("\n📚 Sources:")
+                    for cite in citations:
+                        title = (cite.get("title") or "").strip()
+                        url = (cite.get("url") or "").strip()
+                        if title or url:
+                            log_file.write(f"\n  • {title} — {url}")
+                log_file.write(f"\n{'-'*80}\n")
+        except Exception as log_error:
+            print(f"⚠️ Could not write to factcheck_log.txt: {log_error}")
+
+        # Ensure ElevenLabs gets *only* what it can read aloud
+        return jsonify({"spoken": spoken}), 200
+
+    except Exception as e:
+        print(f"❌ Error in /fact_checker2: {e}")
+        return jsonify({"spoken": "Hmm, my fact-checking tool had trouble just now!"}), 200
+
 
 
 
