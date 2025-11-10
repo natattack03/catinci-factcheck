@@ -195,8 +195,19 @@ def run_fact_check_logic(query: str):
 
     sorted_items = sorted(annotated_items, key=lambda entry: (-entry["score"], entry["rank"]))
 
+    filtered_items = [entry for entry in sorted_items if entry["score"] > 0][:5]
+    if not filtered_items:
+        unsure_message = "I’m not completely sure — I couldn’t find a trustworthy source for that one."
+        return {
+            "verdict": "unsure",
+            "confidence": 0.0,
+            "rationale": unsure_message,
+            "citations": [],
+            "spoken": unsure_message,
+        }
+
     evidence_lines = []
-    for entry in sorted_items:
+    for entry in filtered_items:
         title = (entry["item"].get("title") or "").strip()
         snippet = (entry["item"].get("snippet") or "").strip()
         snippet = re.sub(r"\s+", " ", snippet)
@@ -214,13 +225,15 @@ Claim: {query}
 Evidence (from Google search snippets):
 {evidence}
 
-Based on the evidence above, classify the claim as one of:
-- true (supported by reputable evidence)
-- false (contradicted by reputable evidence)
-- unsure (unclear or insufficient evidence)
+	Based on the evidence above, classify the claim as one of:
+	- true (supported by reputable evidence)
+	- false (contradicted by reputable evidence)
+	- unsure (unclear or insufficient evidence)
 
-Then, write your response in this format:
-"That’s [true/false/unsure] — According to [source name], [one-sentence explanation in simple words that a 5–7 year old can understand]."
+	Ignore information from unverified or social sites (facebook.com, quora.com, reddit.com, fandom.com, etc.). Prefer .edu, .gov, .org, nationalgeographic.com, or other educational domains.
+
+	Then, write your response in this format:
+	"That’s [true/false/unsure] — According to [source name], [one-sentence explanation in simple words that a 5–7 year old can understand]."
 
 Rules:
 - Pick one clear, trustworthy source. Prioritize sources by domain: .edu > .gov > .org > .com > other.
@@ -251,12 +264,22 @@ Rules:
                     "url": entry["item"].get("link", ""),
                     "quote": entry["item"].get("snippet", ""),
                 }
-                for entry in sorted_items[:3]
+                for entry in filtered_items[:3]
             ]
         }
 
         # Add spoken summary
         result["spoken"] = format_spoken_response(result["verdict"], result["rationale"], result["citations"])
+
+        for cite in result["citations"]:
+            url = (cite.get("url") or "").lower()
+            if "facebook.com" in url:
+                fallback_message = "I’m not completely sure — I couldn’t find a trustworthy source for that one."
+                result["verdict"] = "unsure"
+                result["spoken"] = fallback_message
+                result["rationale"] = fallback_message
+                break
+
         return result
 
     except Exception as e:
