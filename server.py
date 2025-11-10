@@ -174,6 +174,20 @@ def claim_has_trusted_cue(text: str) -> bool:
     low = text.lower()
     return any(keyword in low for keyword in TRUSTED_CUE_KEYWORDS)
 
+
+def clean_fact_query(text: str, max_words: int = 20) -> str:
+    """
+    Normalize a spoken answer into a short factual clause for searching.
+    Removes punctuation and keeps the first `max_words` tokens.
+    """
+    if not text:
+        return ""
+    cleaned = re.sub(r"[^a-zA-Z0-9\s]", " ", text)
+    condensed = " ".join(cleaned.split())
+    if not condensed:
+        return ""
+    return " ".join(condensed.split()[:max_words])
+
 # -------------------------------------------------------------------
 # 2. Helper: Format spoken response for ElevenLabs
 # -------------------------------------------------------------------
@@ -226,11 +240,14 @@ def format_spoken_response(verdict, rationale, citations):
 # -------------------------------------------------------------------
 def run_fact_check_logic(query: str):
     print(f"🧠 Running live fact-check logic for: {query}")
+    query_clean = clean_fact_query(query)
+    search_query = query_clean or query
+    print(f"🔍 Searching Google for: {search_query}")
 
     # --- Google Search phase ---
     try:
         service = build("customsearch", "v1", developerKey=GOOGLE_API_KEY)
-        res = service.cse().list(q=query, cx=GOOGLE_CX_ID, num=5).execute()
+        res = service.cse().list(q=search_query, cx=GOOGLE_CX_ID, num=5).execute()
         items = res.get("items", [])
     except Exception as e:
         print(f"❌ Google search error: {e}")
@@ -239,7 +256,8 @@ def run_fact_check_logic(query: str):
             "confidence": 0.0,
             "rationale": f"Google Search error: {e}",
             "citations": [],
-            "spoken": "I’m not completely sure — There was a problem accessing the fact-check data."
+            "spoken": "I’m not completely sure — There was a problem accessing the fact-check data.",
+            "query_used": search_query,
         }
 
     if not items or len(items) < MIN_GOOGLE_RESULTS:
@@ -249,7 +267,8 @@ def run_fact_check_logic(query: str):
             "confidence": 0.0,
             "rationale": "No search results found for this query." if not items else not_enough_message,
             "citations": [],
-            "spoken": not_enough_message
+            "spoken": not_enough_message,
+            "query_used": search_query,
         }
 
     annotated_items = []
@@ -277,6 +296,7 @@ def run_fact_check_logic(query: str):
             "rationale": unsure_message,
             "citations": [],
             "spoken": unsure_message,
+            "query_used": search_query,
         }
 
     evidence_lines = []
@@ -345,7 +365,8 @@ Rules:
                     "quote": entry["item"].get("snippet", ""),
                 }
                 for entry in filtered_items[:3]
-            ]
+            ],
+            "query_used": search_query,
         }
 
         known_fact = detect_known_fact(query)
@@ -387,7 +408,8 @@ Rules:
             "confidence": 0.0,
             "rationale": f"Gemini API error: {e}",
             "citations": [],
-            "spoken": "I’m not completely sure — I couldn’t reach the reasoning service."
+            "spoken": "I’m not completely sure — I couldn’t reach the reasoning service.",
+            "query_used": search_query,
         }
 
 
@@ -425,6 +447,7 @@ def fact_check():
                     f"\n🕓 {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}"
                     f"\n🔎 Claim: {claim}"
                     f"\n🗣️ Agent would say (full): {spoken}"
+                    f"\n🧪 Search query: {result.get('query_used', '')}"
                 )
 
                 citations = result.get("citations") or []
@@ -444,6 +467,7 @@ def fact_check():
             "verdict": result.get("verdict", "unsure"),
             "confidence": result.get("confidence", 0.0),
             "citations": result.get("citations", []),
+            "query_used": result.get("query_used", ""),
         }
         return jsonify(response_payload), 200
 
@@ -482,6 +506,7 @@ def fact_checker2():
                     f"\n🕓 {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}"
                     f"\n🔎 Claim: {claim}"
                     f"\n🗣️ Agent would say (full): {spoken}"
+                    f"\n🧪 Search query: {result.get('query_used', '')}"
                 )
 
                 citations = result.get("citations") or []
@@ -501,6 +526,7 @@ def fact_checker2():
             "verdict": result.get("verdict", "unsure"),
             "confidence": result.get("confidence", 0.0),
             "citations": result.get("citations", []),
+            "query_used": result.get("query_used", ""),
         }
         return jsonify(response_payload), 200
 
