@@ -117,6 +117,7 @@ def domain_priority_score(domain: str) -> int:
 
 MIN_GOOGLE_RESULTS = 2
 
+UNSURE_GUIDANCE_LINE = "Let’s have a parent confirm the rest of this information — it’s always good to know where facts are coming from."
 KNOWN_FACT_PATTERNS = [
     {
         "keywords": ["elephant", "trunk"],
@@ -173,6 +174,17 @@ def claim_has_trusted_cue(text: str) -> bool:
         return False
     low = text.lower()
     return any(keyword in low for keyword in TRUSTED_CUE_KEYWORDS)
+
+
+def append_unsure_guidance(spoken: str) -> str:
+    base = (spoken or "").strip()
+    if not base:
+        base = "I’m not completely sure —"
+    if UNSURE_GUIDANCE_LINE.lower() not in base.lower():
+        if not base.endswith(('.', '!', '?')):
+            base += '.'
+        base = f"{base.rstrip()} {UNSURE_GUIDANCE_LINE}"
+    return base
 
 
 def clean_fact_query(text: str, max_words: int = 20) -> str:
@@ -233,10 +245,7 @@ def format_spoken_response(verdict, rationale, citations):
         spoken = f"{verdict_text} {short_reason}"
 
     if verdict.lower() == "unsure":
-        spoken = (
-            f"{spoken.rstrip()} Let’s have a parent confirm the rest of this information — "
-            "it’s always good to know where facts are coming from."
-        )
+        spoken = append_unsure_guidance(spoken)
 
     return spoken
 
@@ -264,12 +273,12 @@ def run_fact_check_logic(query: str):
             "confidence": 0.0,
             "rationale": f"Google Search error: {e}",
             "citations": [],
-            "spoken": "I’m not completely sure — There was a problem accessing the fact-check data.",
+            "spoken": append_unsure_guidance("I’m not completely sure — There was a problem accessing the fact-check data."),
             "query_used": search_query,
         }
 
     if not items or len(items) < MIN_GOOGLE_RESULTS:
-        not_enough_message = "I’m not completely sure — I couldn’t find enough sources to check that."
+        not_enough_message = append_unsure_guidance("I’m not completely sure — I couldn’t find enough sources to check that.")
         return {
             "verdict": "unsure",
             "confidence": 0.0,
@@ -297,7 +306,7 @@ def run_fact_check_logic(query: str):
 
     filtered_items = [entry for entry in sorted_items if entry["score"] > 0][:5]
     if not filtered_items:
-        unsure_message = "I’m not completely sure — I couldn’t find a trustworthy source for that one."
+        unsure_message = append_unsure_guidance("I’m not completely sure — I couldn’t find a trustworthy source for that one.")
         return {
             "verdict": "unsure",
             "confidence": 0.0,
@@ -401,7 +410,7 @@ Rules:
         for cite in result["citations"]:
             url = (cite.get("url") or "").lower()
             if "facebook.com" in url:
-                fallback_message = "I’m not completely sure — I couldn’t find a trustworthy source for that one."
+                fallback_message = append_unsure_guidance("I’m not completely sure — I couldn’t find a trustworthy source for that one.")
                 result["verdict"] = "unsure"
                 result["spoken"] = fallback_message
                 result["rationale"] = fallback_message
@@ -416,7 +425,7 @@ Rules:
             "confidence": 0.0,
             "rationale": f"Gemini API error: {e}",
             "citations": [],
-            "spoken": "I’m not completely sure — I couldn’t reach the reasoning service.",
+            "spoken": append_unsure_guidance("I’m not completely sure — I couldn’t reach the reasoning service."),
             "query_used": search_query,
         }
 
@@ -446,7 +455,9 @@ def fact_check():
         # 🧩 Extract the short summary to speak aloud
         # Prefer Gemini’s explanation; fallback to rationale text
         explanation = result.get("rationale", "").strip()
-        spoken = explanation
+        spoken = result.get("spoken") or explanation
+        if result.get("verdict", "").lower() == "unsure":
+            spoken = append_unsure_guidance(spoken)
 
         # 📝 Append detailed log entry with sources for review
         try:
@@ -505,7 +516,9 @@ def fact_checker2():
         # 🧩 Extract the short summary to speak aloud
         # Prefer Gemini’s explanation; fallback to rationale text
         explanation = result.get("rationale", "").strip()
-        spoken = explanation
+        spoken = result.get("spoken") or explanation
+        if result.get("verdict", "").lower() == "unsure":
+            spoken = append_unsure_guidance(spoken)
 
         # 📝 Append detailed log entry with sources for review
         try:
