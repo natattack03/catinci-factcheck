@@ -228,9 +228,17 @@ def format_spoken_response(verdict, rationale, citations):
 
     # Construct the spoken sentence
     if source:
-        return f"{verdict_text} According to {source}, {short_reason}"
+        spoken = f"{verdict_text} According to {source}, {short_reason}"
     else:
-        return f"{verdict_text} {short_reason}"
+        spoken = f"{verdict_text} {short_reason}"
+
+    if verdict.lower() == "unsure":
+        spoken = (
+            f"{spoken.rstrip()} Let’s have a parent confirm the rest of this information — "
+            "it’s always good to know where facts are coming from."
+        )
+
+    return spoken
 
 
 
