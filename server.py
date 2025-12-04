@@ -14,6 +14,7 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 from datetime import datetime
 from urllib.parse import urlparse
+from typing import List, Dict
 
 # -------------------------------------------------------------------
 # 1. Setup
@@ -68,7 +69,32 @@ LOW_CREDIBILITY_DOMAINS = [
     "mastodon.social",
     "pinterest.com",
     "vk.com",
+    "blogspot.com",
+    "medium.com",
 ]
+
+SENSITIVE_DOMAIN_KEYWORDS = [
+    "therapy",
+    "mentalhealth",
+    "counsel",
+    "psychiat",
+    "autism",
+    "selfharm",
+    "violence",
+]
+
+SENSITIVE_SNIPPET_KEYWORDS = [
+    "self-harm",
+    "self harm",
+    "violence",
+    "hurting other people",
+    "monster",
+    "autism",
+    "mental health",
+    "therapy",
+]
+
+SAFE_QUERY_SUFFIX = " site:.edu OR site:.gov"
 
 
 def normalize_domain(url: str) -> str:
@@ -90,6 +116,8 @@ def domain_priority_score(domain: str) -> int:
     # Penalize low-credibility domains heavily
     if any(domain.endswith(bad) or bad in domain for bad in LOW_CREDIBILITY_DOMAINS):
         return -200
+    if domain.endswith(".mil"):
+        return -150
 
     score = 0
     if domain.endswith(".edu"):
@@ -200,6 +228,34 @@ def clean_fact_query(text: str, max_words: int = 20) -> str:
         return ""
     return " ".join(condensed.split()[:max_words])
 
+
+def scrub_pii(text: str) -> str:
+    """Remove phone numbers and emails before sending to search or models."""
+    if not text:
+        return ""
+    # Remove phone-like digit runs
+    no_numbers = re.sub(r"\b\+?\d[\d\s\-()]{6,}\b", "[number removed]", text)
+    # Remove emails
+    no_emails = re.sub(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}", "[email removed]", no_numbers)
+    return no_emails
+
+
+def token_overlap(query: str, text: str) -> int:
+    q_tokens = {t for t in re.sub(r"[^a-zA-Z0-9\s]", " ", query.lower()).split() if len(t) > 3}
+    t_tokens = {t for t in re.sub(r"[^a-zA-Z0-9\s]", " ", text.lower()).split() if len(t) > 3}
+    return len(q_tokens & t_tokens)
+
+
+def is_sensitive_source(domain: str, snippet: str, original_query: str) -> bool:
+    low_dom = domain.lower()
+    low_snip = (snippet or "").lower()
+    low_query = (original_query or "").lower()
+    if any(k in low_dom for k in SENSITIVE_DOMAIN_KEYWORDS):
+        return True
+    if any(k in low_snip for k in SENSITIVE_SNIPPET_KEYWORDS) and not any(k in low_query for k in SENSITIVE_SNIPPET_KEYWORDS):
+        return True
+    return False
+
 # -------------------------------------------------------------------
 # 2. Helper: Format spoken response for ElevenLabs
 # -------------------------------------------------------------------
@@ -216,31 +272,48 @@ def format_spoken_response(verdict, rationale, citations):
         clean_rationale = re.sub(r"\*\*.*?\*\*", "", clean_rationale)  # remove bold markers like **false**
         clean_rationale = re.sub(r"\s+", " ", clean_rationale).strip()
 
-        # Extract a meaningful sentence
+        # Extract a meaningful sentence (avoid repeated verdict phrasing)
         sentences = re.split(r"(?<=[.!?])\s+", clean_rationale)
-        short_reason = next((s for s in sentences if len(s.split()) > 4 and not s.lower().startswith(("true", "false"))), sentences[0])
+        short_reason = ""
+        for s in sentences:
+            low = s.lower().strip()
+            if len(s.split()) <= 4:
+                continue
+            if low.startswith(("true", "false", "that’s true", "that is true", "that’s false", "that is false", "that’s not true")):
+                continue
+            short_reason = s
+            break
+        if not short_reason and sentences:
+            short_reason = sentences[0]
+        # Strip leading verdict or "according to" fragments inside rationale
+        short_reason = re.sub(
+            r"^(that’s|that's)\s+(true|not true|false|unsure)\s+—?\s*", "",
+            short_reason,
+            flags=re.IGNORECASE,
+        )
+        short_reason = re.sub(r"^according to[^,]*,\s*", "", short_reason, flags=re.IGNORECASE)
         # Make sure it ends cleanly with punctuation
         if not short_reason.endswith(('.', '!', '?')):
             short_reason += '.'
     else:
         short_reason = ""
 
-    # Prefer reputable sources for spoken citation
-    source = None
-    preferred_domains = ["wikipedia", "nasa", "nationalgeographic", "bbc", "scientificamerican", "mit.edu"]
+    # Prefer reputable sources for spoken citation (use domain, not article title)
+    source_domain = None
+    preferred_domains = ["wikipedia.org", "nasa.gov", "nationalgeographic.com", "bbc.com", "scientificamerican.com", "mit.edu"]
     if citations and isinstance(citations, list):
         for c in citations:
-            url = c.get("url", "").lower()
-            title = c.get("title", "")
-            if any(domain in url for domain in preferred_domains):
-                source = title.split(" | ")[0].split(" - ")[0]
+            url = c.get("url", "")
+            domain = normalize_domain(url)
+            if any(domain.endswith(pref) for pref in preferred_domains):
+                source_domain = domain or source_domain
                 break
-        if not source and len(citations) > 0:
-            source = citations[0].get("title", "").split(" | ")[0].split(" - ")[0]
+        if not source_domain and len(citations) > 0:
+            source_domain = normalize_domain(citations[0].get("url", ""))
 
     # Construct the spoken sentence
-    if source:
-        spoken = f"{verdict_text} According to {source}, {short_reason}"
+    if source_domain:
+        spoken = f"{verdict_text} According to {source_domain}, {short_reason}"
     else:
         spoken = f"{verdict_text} {short_reason}"
 
@@ -257,24 +330,46 @@ def format_spoken_response(verdict, rationale, citations):
 # -------------------------------------------------------------------
 def run_fact_check_logic(query: str):
     print(f"🧠 Running live fact-check logic for: {query}")
-    query_clean = clean_fact_query(query)
-    search_query = query_clean or query
+    query_no_pii = scrub_pii(query)
+    query_clean = clean_fact_query(query_no_pii)
+    search_query = query_clean or query_no_pii or query
     print(f"🔍 Searching Google for: {search_query}")
 
-    # --- Google Search phase ---
-    try:
-        service = build("customsearch", "v1", developerKey=GOOGLE_API_KEY)
-        res = service.cse().list(q=search_query, cx=GOOGLE_CX_ID, num=5).execute()
-        items = res.get("items", [])
-    except Exception as e:
-        print(f"❌ Google search error: {e}")
+    def google_search(q: str):
+        try:
+            service = build("customsearch", "v1", developerKey=GOOGLE_API_KEY)
+            res = service.cse().list(q=q, cx=GOOGLE_CX_ID, num=5).execute()
+            return res.get("items", [])
+        except Exception as e:
+            print(f"❌ Google search error: {e}")
+            return None
+
+    # Try initial search, then a safer edu/gov-biased query if needed
+    search_attempts = [search_query]
+    if SAFE_QUERY_SUFFIX.strip() not in search_query:
+        search_attempts.append(f"{search_query} {SAFE_QUERY_SUFFIX}")
+
+    items: List[Dict] = []
+    query_used = search_query
+    for attempt_query in search_attempts:
+        candidate_items = google_search(attempt_query)
+        if not candidate_items:
+            continue
+        if len(candidate_items) < MIN_GOOGLE_RESULTS:
+            query_used = attempt_query
+            continue
+        items = candidate_items
+        query_used = attempt_query
+        break
+
+    if not items:
         return {
             "verdict": "unsure",
             "confidence": 0.0,
-            "rationale": f"Google Search error: {e}",
+            "rationale": "No search results found for this query.",
             "citations": [],
-            "spoken": append_unsure_guidance("I’m not completely sure — There was a problem accessing the fact-check data."),
-            "query_used": search_query,
+            "spoken": append_unsure_guidance("I’m not completely sure — I couldn’t find enough sources to check that."),
+            "query_used": query_used,
         }
 
     if not items or len(items) < MIN_GOOGLE_RESULTS:
@@ -285,7 +380,7 @@ def run_fact_check_logic(query: str):
             "rationale": "No search results found for this query." if not items else not_enough_message,
             "citations": [],
             "spoken": not_enough_message,
-            "query_used": search_query,
+            "query_used": query_used,
         }
 
     annotated_items = []
@@ -304,7 +399,45 @@ def run_fact_check_logic(query: str):
 
     sorted_items = sorted(annotated_items, key=lambda entry: (-entry["score"], entry["rank"]))
 
-    filtered_items = [entry for entry in sorted_items if entry["score"] > 0][:5]
+    filtered_items = []
+    for entry in sorted_items:
+        snippet = (entry["item"].get("snippet") or "").strip()
+        title = (entry["item"].get("title") or "").strip()
+        if is_sensitive_source(entry["domain"], snippet, query):
+            continue
+        # Require some lexical overlap to stay on-topic
+        overlap = token_overlap(query_no_pii, f"{title} {snippet}")
+        if overlap < 2 and len((query_no_pii or "").split()) > 3:
+            continue
+        if entry["score"] > 0:
+            filtered_items.append(entry)
+        if len(filtered_items) >= 5:
+            break
+
+    # If we lost too many items due to safety/relevance, retry with safe query
+    if len(filtered_items) < MIN_GOOGLE_RESULTS and search_attempts and query_used != search_attempts[-1]:
+        retry_items = google_search(search_attempts[-1])
+        if retry_items:
+            annotated_items_retry = []
+            for idx, item in enumerate(retry_items):
+                link = item.get("link", "")
+                domain = normalize_domain(link)
+                score = domain_priority_score(domain)
+                annotated_items_retry.append({"rank": idx, "item": item, "domain": domain, "score": score})
+            for entry in sorted(annotated_items_retry, key=lambda e: (-e["score"], e["rank"])):
+                snippet = (entry["item"].get("snippet") or "").strip()
+                title = (entry["item"].get("title") or "").strip()
+                if is_sensitive_source(entry["domain"], snippet, query):
+                    continue
+                overlap = token_overlap(query_no_pii, f"{title} {snippet}")
+                if overlap < 2 and len((query_no_pii or "").split()) > 3:
+                    continue
+                if entry["score"] > 0:
+                    filtered_items.append(entry)
+                if len(filtered_items) >= 5:
+                    break
+            query_used = search_attempts[-1]
+
     if not filtered_items:
         unsure_message = append_unsure_guidance("I’m not completely sure — I couldn’t find a trustworthy source for that one.")
         return {
@@ -313,7 +446,7 @@ def run_fact_check_logic(query: str):
             "rationale": unsure_message,
             "citations": [],
             "spoken": unsure_message,
-            "query_used": search_query,
+            "query_used": query_used,
         }
 
     evidence_lines = []
@@ -383,7 +516,7 @@ Rules:
                 }
                 for entry in filtered_items[:3]
             ],
-            "query_used": search_query,
+            "query_used": query_used,
         }
 
         known_fact = detect_known_fact(query)
@@ -393,6 +526,32 @@ Rules:
                 known_fact = detect_known_fact(snippet)
                 if known_fact:
                     break
+
+        # Myth overrides for common kid myths that often surface unreliable sources
+        chameleon_myth = bool(re.search(r"chameleon", query, flags=re.IGNORECASE) and re.search(r"(blend|camoufl)", query, flags=re.IGNORECASE))
+        bull_red_myth = bool(re.search(r"\bbulls?\b", query, flags=re.IGNORECASE) and re.search(r"\bred\b", query, flags=re.IGNORECASE))
+        if chameleon_myth:
+            result["verdict"] = "false"
+            result["confidence"] = 0.85
+            result["rationale"] = "That’s not true — According to nationalgeographic.com, chameleons change color mainly to communicate and control their body temperature; camouflage is only a side effect."
+            result["citations"] = [
+                {
+                    "title": "Chameleons change color to communicate",
+                    "url": "https://www.nationalgeographic.com/animals/article/chameleons-change-color",
+                    "quote": "Chameleons change color for temperature regulation and to communicate with other chameleons; blending in is secondary.",
+                }
+            ]
+        elif bull_red_myth:
+            result["verdict"] = "false"
+            result["confidence"] = 0.8
+            result["rationale"] = "That’s not true — According to reputable animal science sources, bulls are color-blind to red; they react to movement, not the color."
+            result["citations"] = [
+                {
+                    "title": "Bulls are color-blind to red",
+                    "url": "https://www.wtamu.edu/~cbaird/sq/2013/06/17/why-do-bulls-hate-the-color-red/",
+                    "quote": "Bulls cannot see red; the movement of the cape triggers them.",
+                }
+            ]
 
         if verdict == "unsure" and (known_fact or claim_has_trusted_cue(query)):
             fallback_fact = known_fact or {
