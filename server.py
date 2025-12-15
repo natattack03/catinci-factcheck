@@ -7,6 +7,7 @@ and returns a structured JSON verdict (true, false, or unsure) with citations an
 
 import os
 import re
+import json
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from googleapiclient.discovery import build
@@ -81,6 +82,10 @@ SENSITIVE_DOMAIN_KEYWORDS = [
     "autism",
     "selfharm",
     "violence",
+    "dementia",
+    "hallucination",
+    "bonnet",
+    "memory.ucsf.edu",
 ]
 
 SENSITIVE_SNIPPET_KEYWORDS = [
@@ -92,9 +97,14 @@ SENSITIVE_SNIPPET_KEYWORDS = [
     "autism",
     "mental health",
     "therapy",
+    "hallucination",
+    "dementia",
+    "psychosis",
+    "delusion",
 ]
 
 SAFE_QUERY_SUFFIX = " site:.edu OR site:.gov"
+UNSURE_CORE_TEMPLATE = "I’m not completely sure about that. Let’s ask a grown-up together!"
 
 
 def normalize_domain(url: str) -> str:
@@ -255,6 +265,78 @@ def is_sensitive_source(domain: str, snippet: str, original_query: str) -> bool:
     if any(k in low_snip for k in SENSITIVE_SNIPPET_KEYWORDS) and not any(k in low_query for k in SENSITIVE_SNIPPET_KEYWORDS):
         return True
     return False
+
+
+def combine_user_and_agent(user_question: str, agent_claim: str) -> str:
+    """
+    Build a grounded search string using both the user's question and the agent's response.
+    Falls back gracefully if one is missing.
+    """
+    parts = [p.strip() for p in [user_question or "", agent_claim or ""] if p and p.strip()]
+    if not parts:
+        return ""
+    return " - ".join(parts)
+
+
+def extract_core_claim(agent_utterance: str) -> Dict[str, str]:
+    """
+    Use LLM to extract a short factual core claim and intent classification.
+    Returns a dict with keys: core_claim, intent.
+    """
+    prompt = f"""
+You help a children's fact-checking system.
+
+Given the AGENT'S full answer below, extract a single short factual claim that can be searched on the web.
+
+Rules:
+- Keep it neutral and literal.
+- Do NOT include kid-friendly fluff, metaphors, or emotional language.
+- If there is no factual claim (the statement is emotional, sensitive, advice, or opinion), return core_claim="no_claim" and intent accordingly.
+
+Return JSON ONLY:
+{{
+  "core_claim": "...",
+  "intent": "FACT | EMOTIONAL | SENSITIVE | NONE"
+}}
+
+AGENT_UTTERANCE:
+\"\"\"{agent_utterance}\"\"\"
+    """
+
+    result = {"core_claim": "no_claim", "intent": "NONE"}
+    try:
+        model = genai.GenerativeModel("models/gemini-2.5-flash")
+        resp = model.generate_content(prompt)
+        text = (resp.text or "").strip()
+        parsed = None
+        try:
+            parsed = json.loads(text)
+        except Exception:
+            # Try to pull the first JSON-looking block
+            if "{" in text and "}" in text:
+                candidate = text[text.find("{"): text.rfind("}") + 1]
+                try:
+                    parsed = json.loads(candidate)
+                except Exception:
+                    parsed = None
+        if isinstance(parsed, dict):
+            core = (parsed.get("core_claim") or "").strip() or "no_claim"
+            intent = (parsed.get("intent") or "NONE").strip().upper()
+            result = {"core_claim": core, "intent": intent}
+        else:
+            # Fallback: heuristic core claim from the first sentence
+            sentences = re.split(r"(?<=[.!?])\s+", agent_utterance.strip())
+            fallback_core = sentences[0].strip() if sentences else ""
+            fallback_core = re.sub(r"\s+", " ", fallback_core)
+            if len(fallback_core.split()) >= 4:
+                result = {"core_claim": fallback_core, "intent": "NONE"}
+            else:
+                result = {"core_claim": "no_claim", "intent": "NONE"}
+    except Exception as e:
+        print(f"❌ Core claim extractor error: {e}")
+
+    print("[CORE CLAIM EXTRACTOR]", {"raw_claim": agent_utterance, **result})
+    return result
 
 # -------------------------------------------------------------------
 # 2. Helper: Format spoken response for ElevenLabs
@@ -599,16 +681,35 @@ def fact_check():
         if not isinstance(data, dict):
             return jsonify({"spoken": "I couldn’t read that fact to check it. Please send it again."}), 200
 
-        claim = data.get("claim", "")
-        if not isinstance(claim, str):
+        claim_raw = data.get("claim", "")
+        if not isinstance(claim_raw, str):
             return jsonify({"spoken": "I only understand facts written as text sentences."}), 200
-        claim = claim.strip()
-        print(f"🧠 Received claim: {claim}")
+        claim_raw = claim_raw.strip()
+        print(f"🧠 Received claim: {claim_raw}")
 
-        if not claim:
+        if not claim_raw:
             return jsonify({"spoken": "I didn’t catch that to fact-check, sorry!"}), 200
 
-        result = run_fact_check_logic(claim)
+        extracted = extract_core_claim(claim_raw)
+        core_claim = extracted.get("core_claim", "no_claim")
+        intent = extracted.get("intent", "NONE")
+
+        # If the model failed to label intent but returned a usable claim, treat it as FACT
+        if intent == "NONE" and core_claim.lower() != "no_claim":
+            intent = "FACT"
+
+        if intent != "FACT" or core_claim.lower() == "no_claim":
+            spoken_unsure = append_unsure_guidance(UNSURE_CORE_TEMPLATE)
+            response_payload = {
+                "spoken": spoken_unsure,
+                "verdict": "unsure",
+                "confidence": 0.0,
+                "citations": [],
+                "query_used": "",
+            }
+            return jsonify(response_payload), 200
+
+        result = run_fact_check_logic(core_claim)
         print("🤖 Gemini raw output:", result.get("rationale", ""))
 
         # 🧩 Extract the short summary to speak aloud
@@ -623,7 +724,9 @@ def fact_check():
             with open("factcheck_log.txt", "a", encoding="utf-8") as log_file:
                 log_file.write(
                     f"\n🕓 {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}"
-                    f"\n🔎 Claim: {claim}"
+                    f"\n🔎 Claim: {claim_raw}"
+                    f"\n🔍 Core claim: {core_claim}"
+                    f"\n🎯 Intent: {intent}"
                     f"\n🗣️ Agent would say (full): {spoken}"
                     f"\n🧪 Search query: {result.get('query_used', '')}"
                 )
@@ -660,16 +763,46 @@ def fact_checker2():
         if not isinstance(data, dict):
             return jsonify({"spoken": "I couldn’t read that fact to check it. Please send it again."}), 200
 
-        claim = data.get("claim", "")
-        if not isinstance(claim, str):
+        claim_raw = data.get("claim", "")
+        if not isinstance(claim_raw, str):
             return jsonify({"spoken": "I only understand facts written as text sentences."}), 200
-        claim = claim.strip()
-        print(f"🧠 Received claim: {claim}")
+        claim_raw = claim_raw.strip()
+        print(f"🧠 Received claim: {claim_raw}")
 
-        if not claim:
+        if not claim_raw:
             return jsonify({"spoken": "I didn’t catch that to fact-check, sorry!"}), 200
 
-        result = run_fact_check_logic(claim)
+        # Optional user question to help ground intent; if provided, prepend to the claim for extraction
+        user_question = data.get("user_question") or data.get("original_user_input") or ""
+        if user_question and not isinstance(user_question, str):
+            user_question = ""
+        combined_for_extraction = combine_user_and_agent(user_question, claim_raw) if user_question else claim_raw
+
+        extracted = extract_core_claim(combined_for_extraction)
+        core_claim = extracted.get("core_claim", "no_claim")
+        intent = extracted.get("intent", "NONE")
+
+        # Safety: treat NONE as non-FACT; also detect emotional/feeling cues and short-circuit
+        emotional_terms = ["feel", "feeling", "scared", "afraid", "worried", "anxious", "anxiety", "fear", "nervous", "upset"]
+        lower_all = f"{user_question} {claim_raw} {core_claim}".lower()
+        if any(term in lower_all for term in emotional_terms):
+            intent = "EMOTIONAL"
+
+        if intent != "FACT" or core_claim.lower() == "no_claim":
+            spoken_unsure = append_unsure_guidance(UNSURE_CORE_TEMPLATE)
+            response_payload = {
+                "spoken": spoken_unsure,
+                "verdict": "unsure",
+                "confidence": 0.0,
+                "citations": [],
+                "query_used": "",
+            }
+            return jsonify(response_payload), 200
+
+        # Use user question + core claim for search grounding
+        combined_search = combine_user_and_agent(user_question, core_claim) if user_question else core_claim
+
+        result = run_fact_check_logic(combined_search)
         print("🤖 Gemini raw output:", result.get("rationale", ""))
 
         # 🧩 Extract the short summary to speak aloud
@@ -684,7 +817,9 @@ def fact_checker2():
             with open("factcheck_log.txt", "a", encoding="utf-8") as log_file:
                 log_file.write(
                     f"\n🕓 {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}"
-                    f"\n🔎 Claim: {claim}"
+                    f"\n🔎 Claim: {claim_raw}"
+                    f"\n🔍 Core claim: {core_claim}"
+                    f"\n🎯 Intent: {intent}"
                     f"\n🗣️ Agent would say (full): {spoken}"
                     f"\n🧪 Search query: {result.get('query_used', '')}"
                 )
