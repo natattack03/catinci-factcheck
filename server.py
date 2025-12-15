@@ -784,8 +784,8 @@ def fact_checker2():
 
         # Safety: treat NONE as non-FACT; also detect emotional/feeling cues and short-circuit
         emotional_terms = ["feel", "feeling", "scared", "afraid", "worried", "anxious", "anxiety", "fear", "nervous", "upset"]
-        lower_all = f"{user_question} {claim_raw} {core_claim}".lower()
-        if any(term in lower_all for term in emotional_terms):
+        lower_user = (user_question or "").lower()
+        if lower_user and any(term in lower_user for term in emotional_terms):
             intent = "EMOTIONAL"
 
         if intent != "FACT" or core_claim.lower() == "no_claim":
